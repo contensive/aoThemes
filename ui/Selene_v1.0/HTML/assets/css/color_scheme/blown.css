@@ -1,0 +1,47 @@
+/* Brown
+	Main Color: 	#AB8B64
+	Hover Color: 	#987852
+ ************************************************* */
+::selection {
+	background:#AB8B64;
+}
+::-moz-selection {
+	background:#AB8B64;
+}
+
+
+a, a:focus, a:hover, a:active {
+	color:#AB8B64;
+	border-bottom:#AB8B64 1px dotted;
+}
+	a:focus, a:hover, a:active {
+		border-bottom:#AB8B64 1px solid;
+	}
+
+.btn-primary {
+	background-color:#AB8B64;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	border-color:#987852 !important;
+	background-color:#987852;
+}
+
+	#home nav>ul.nav>li>a:before {
+		background-color: #AB8B64;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:#AB8B64;
+	}
+
+#slider h1>em,
+div.page h1>span {
+	color:#AB8B64;
+}
+
+.input-group-addon {
+	background-color:#AB8B64;
+	border-color:#AB8B64;
+}

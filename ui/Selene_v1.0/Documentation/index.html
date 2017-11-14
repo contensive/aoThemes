@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en-US" id="top">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>Documentation</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras" />
+		<link type="text/css" rel="stylesheet" href="assets/css/shBrush.css" />
+		<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+		<link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon" />
+	</head>
+	<body class="blue"><!-- empty = black (default) ; green, blue, orange, red, yellow, pink -->
+
+		<!-- WRAPPER -->
+		<div id="wrapper">
+
+			<!-- MIDDLE -->
+			<div id="middle">
+				<!-- title -->
+				<h1>SELENE <em>&bull; Template</em></h1>
+				<p class="antet">Template &amp; Documentation by <em>Dorin Grigoras</em></p>
+				<br class="clr" />
+				<!-- title -->
+
+				<!-- INFO -->
+				<p class="info">
+					<b>First of all, thank you for purchasing the template!</b><br />
+					If you have any questions that are beyond the scope of this help file, please feel free to ask your question at: stepofweb@gmail.com</a>.<br />
+					<br /><br />
+
+					<b>Author:</b> Dorin Grigoras<br />
+					<b>Email:</b> <a href="mailto:stepofweb@gmail.com">stepofweb@gmail.com</a><br />
+					<b>Created:</b> Tuesday, November 25, 2014<br />
+					<b>Latest Update:</b> Tuesday, November 25, 2014<br />
+				</p>
+
+				<hr />
+
+				<div class="nNote nWarning">
+					<p class="text-left">
+						Due to local security restrictions, some things will not work locally, especially in Chrome.<br />
+						Everything will work once the files have been uploaded to a webserver. <br /><br />
+						<small>
+							Please note: contact.php / newsletter.php works only on a php webserver.
+						</small>
+						
+					</p>
+				</div>
+				<!-- INFO -->
+
+				<!-- content index -->
+				<ol>
+					<li><a href="#f1">Folder Structure</a></li>
+					<li><a href="#f2">HTML Structure</a></li>
+					<li><a href="#f3">CSS Structure</a></li>
+					<li><a href="#f4">JavaScript</a></li>
+					<li><a href="#f5">Icons</a></li>
+					<li><a href="#f7">Lightbox</a></li>
+					<li><a href="#f8">PHP Scripts</a></li>
+					<li><a href="#f10">Social Icons</a></li>
+					<li><a href="#f11">Responsive</a></li>
+					<li><a href="#f12">Miscellaneous</a></li>
+					<li><a href="#f13">Sources and Credits</a></li>
+					<li><a href="#f14">Updates</a></li>
+				</ol>
+
+				<!-- content index -->
+
+				<hr />
+
+
+				<!-- content -->
+				<div id="content">
+
+					<!-- #1 -->
+					<div id="f1">
+						<h2>1. Template Folder Structure <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							<b>1. Documentation</b><br />
+							<b>2. /HTML/</b><br />
+								|-- assets<br />
+								|-- | -- css/ <br />
+								|-- | -- images/<br />
+								|-- | -- js/ <br />
+								|-- | -- plugins/<br />
+								|-- php<br />
+							<br /><br />
+<pre>
+<b>/HTML/assets/css/</b> - CSS styles
+<b>/HTML/assets/images/</b> - all images needed by the template
+<b>/HTML/assets/js/</b>scripts.js - controlls all loaded plugins on the website.
+<b>/HTML/assets/plugins/</b> - javascripts files (jquery plugins).<br />
+<b>/HTML/php/</b> - contains the php files needed to send emails through contact form. All you have to do is to edit config.inc.php wih your settings (email server).<br />
+</pre>
+						</div>
+					</div>
+
+					<!-- #2 -->
+					<div id="f2">
+						<h2>2. HTML Structure <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							The template is based on Bootstrap Framework - <a href="http://getbootstrap.com/">http://getbootstrap.com/</a><br /><br />
+							Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts.<br /><br />
+
+<pre class="brush: html">
+	<div class="row">
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-8">.col-md-8</div>
+	  <div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-4">.col-md-4</div>
+	  <div class="col-md-4">.col-md-4</div>
+	  <div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-6">.col-md-6</div>
+	  <div class="col-md-6">.col-md-6</div>
+	</div>
+</pre>
+							<br />
+							<p>
+								If you need more info, please visit <a href="http://getbootstrap.com/css/#grid">http://getbootstrap.com/css/#grid</a>
+							</p>
+
+							<br />							
+							<b>W3C Valid</b><br />
+							HTML code is fully valid on <a href="http://validator.w3.org/#validate_by_input">validator.w3.org</a>.
+
+						</div>
+					</div>
+
+					<!-- #3 -->
+					<div id="f3">
+						<h2>3. CSS Structure <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							The organization of the CSS is one of our priorities.<br />
+							These are the CSS file we're using in the template:<br />
+							<br />
+
+<pre>
+- <b>bootstrap.css</b> - Generic styles, resets & normalization
+
+- <b>layout.css</b> - The layout stylesheet
+</pre>
+
+							<br />
+							<b>Google Fonts</b><br />
+							<a href="http://www.google.com/fonts/specimen/Open+Sans">Open Sans</a>. <br />
+							<a href="http://www.google.com/fonts/specimen/Dosis">Dosis</a>. <br />
+						</div>
+
+						<h2>Color Scheme</h2>
+
+						<p>
+							If you don't use LESS, all color schemes can be found under assets/css/color_scheme/ folder. you have by default 8 predefined colors.<br />
+							By default, green.css is already integrated on layout.css (you don't need to include again)<br />
+							If you want a different color, add AFTER layout.css:
+						</p>
+
+<pre class="brush: html">
+	<!-- THEME CSS -->
+	<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/color_scheme/red.css" rel="stylesheet" type="text/css" />
+</pre>
+
+<br /><br />
+					</div>
+
+					<!-- #4 -->
+					<div id="f4">
+						<h2>4. Javascript <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							The template uses some advanced jQuery functions.<br /> 
+							Almost everything is controlled by scripts.js<br /><br />
+							If you want to add more jquery plugins, it's recommended to use your custom javascript file.<br /><br />
+							<br />
+
+						</div>
+					</div>
+
+					<!-- #5 -->
+					<div id="f5">
+						<h2>5. Icons <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							Font Awesome gives you scalable vector icons that can instantly be customized - size, color, drop shadow, and anything that can be done with the power of CSS.<br /><br />
+							If you need more information, please visit <a href="http://fontawesome.io/">http://fontawesome.io/</a>.<br /><br />
+
+							<b>Usage</b><br />
+<pre class="brush: html">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-gear"></i>
+<i class="fa fa-info-circle"></i>
+<i class="fa fa-pencil-square"></i>
+...
+</pre>
+							<br />
+						</div>
+					</div>
+
+
+					<!-- #7 -->
+					<div id="f7">
+						<h2>7. Lightbox <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							<a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a> is a jQuery script used for photos.<br /> 
+							Not only does it support images, it also support videos, flash, YouTube, iframes and ajax. It’s a full blown media lightbox.<br />
+							<p>
+								Magnific Popup is a responsive lightbox & dialog script with focus on performance and providing best experience for user with any device
+							</p>
+
+							<b>USAGE</b><br />
+<pre class="brush: html">
+	IMAGE
+	<a class="img-thumbnail lightbox" href="assets/images/demo/test_1.jpg" data-plugin-options='{"type":"image"}'>
+		<img class="img-responsive" width="215" src="assets/images/demo/test_1_thumb.jpg"><!-- thumb -->
+	</a>
+
+	VIDEO
+	<a class="item-hover lightbox" href="http://www.youtube.com/watch?v=W7Las-MJnJo" data-plugin-options='{"type":"iframe"}'>
+		<img class="img-responsive" width="215" src="assets/images/demo/test_1_thumb.jpg"><!-- thumb or replace with text -->
+	</a>
+</pre>
+<small>Documentation issue - please use single quotes instead of double quotes:  <strong>data-plugin-options='{"type":"iframe"}'</strong></small>. Documentation convert the code in a wrong way!
+
+							<br />
+						</div>
+					</div>
+
+					<!-- #8 -->
+					<div id="f8">
+						<h2>8. PHP Scripts <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							Regarding contact form as main part of Contact Us section, only thing you need to do is to setup your email address.<br />
+							Please open "<b>/php/config.inc.php</b>" file and edit with your own credentials.
+							</p>
+								<a href="http://phpmailer.worxware.com/">PHPMailer</a> is used to send emails - you need a valid email account that accept SMTP connections.
+							</p>
+
+<pre class="brush: php">
+// SMTP Server Settings
+$config['smtp_host'] 			= 'ssl://smtp.gmail.com';   // eg.: smtp.mandrillapp.com
+$config['smtp_port'] 			= 465;						// eg.: 587
+$config['smtp_user'] 			= ''; 						// you@gmail.com
+$config['smtp_pass'] 			= '';						// password
+$config['smtp_ssl']				= false;					// should remain false
+
+// Who receive all emails?
+$config['send_to']				= 'you@gmail.com';			// destination of all emails sent throught contact form
+
+// Email Subject
+$config['subject']				= 'Contact Form';			// subject of emails you receive
+</pre>
+							<br />
+							<div class="nNote nInformation">
+								<p class="text-left">This will work only on a webserver (php installed).</p>
+							</div>
+							<p>
+								If something is not working, be sure that the port you use for SMTP conections, is not firewalled.<br />
+								Example: gmail use port 465. Be sure that port 465 is not firewalled.<br />
+								Also, check carefuly your /php/config.inc.php for errors or incorrect username,password, host or port.
+							</p>
+
+							<br />
+							<h2>Newsletter</h2>
+							php/newsletter.php  is a newsletter script that write to a text file all subscriptions.<br />
+							The file is named "_newsletter.txt" and can be found on the same folder. <br />
+							Please note: "_newsletter.txt" must have write permission on your webserver.<br />
+
+						</div>
+					</div>
+
+					<!-- #11 -->
+					<div id="f11">
+						<h2>11. Responsive <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							This template is fully responsive.
+						</div>
+					</div>
+
+
+					<!-- #13 -->
+					<div id="f13">
+						<h2>13. Sources and Credits <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							<a href="http://jquery.com/" target="_blank">jQuery</a><br />
+							<a href="http://www.google.com/fonts/" target="_blank">Google Fonts</a><br />
+							<a href="http://fontawesome.io/" target="_blank">Font Awsome</a><br />
+							<a href="http://getbootstrap.com/" target="_blank">Bootstrap</a><br />
+							<a href="https://github.com/dimsemenov/Magnific-Popup" target="_blank">Magnific Popup</a><br />
+							<a href="http://phpmailer.worxware.com/" target="_blank">PHPmailer</a><br />
+							<a href="http://keith-wood.name/countdown.html" target="_blank">jQuery Countdown</a><br />
+							<a href="http://jquery.malsup.com/cycle2/" target="_blank">jQuery Cycle</a><br />
+							<a href="http://pupunzi.com/" target="_blank">YT Player</a><br />
+							<a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">Backstretch</a><br />
+							<a href="http://www.jqueryrain.com/?Q1lKiH8v" target="_blank">JS Snow</a><br />
+							<a href="http://modernizr.com/" target="_blank">Modernizr</a><br />
+
+							<br />
+
+							<a href="http://publicphoto.org/">Public Photo</a><br />
+							<a href="http://flickr.com/">Flickr</a><br /><br />
+
+							<a href="https://www.flickr.com/photos/singhmv/5216703795" target="_blank">flickr_7.jpg</a><br />
+							<a href="http://www.flickr.com/photos/pasotraspaso/12574692544/sizes/o/in/photostream/" target="_blank">flickr_9.jpg</a><br />
+							<a href="https://www.flickr.com/photos/scott-s_photos/11636229384" target="_blank">flickr_1.jpg</a><br />
+							<a href="https://www.flickr.com/photos/joansorolla/7341572374" target="_blank">flickr_2.jpg</a><br />
+							<a href="https://www.flickr.com/photos/mendhak/8168759097" target="_blank">flickr_3.jpg</a><br />
+							<a href="https://www.flickr.com/photos/katsrcool/11507750783" target="_blank">flickr_4.jpg</a><br />
+							<a href="https://www.flickr.com/photos/davidchief/6845651011" target="_blank">o2.jpg</a><br />
+							<a href="https://www.flickr.com/photos/joeyparsons/3178503206" target="_blank">o4.jpg</a><br />
+						</div>
+					</div>
+
+					<!-- #14 -->
+					<div id="f14">
+						<h2>14. Updates <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							IMPORTANT: Create a backup of your project before any update.<br /> 
+							It's highly recommended to create your own css/js files if you make changes.<br />
+						</div>
+					</div>
+
+
+				</div>
+				<!-- content -->
+
+				<br class="clr" />
+			</div>
+			<!-- MIDDLE -->
+
+
+		</div>
+		<!-- WRAPPER -->
+
+		<script type="text/javascript" src="assets/js/script.js"></script>
+		<script src="assets/js/shBrush/shCore.js"></script>
+		<script src="assets/js/shBrush/shBrushXml.js"></script>
+		<script src="assets/js/shBrush/shBrushPhp.js"></script>
+		<script src="assets/js/shBrush/shBrushCss.js"></script>
+		<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+	</body>
+</html>

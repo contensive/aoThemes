@@ -1,0 +1,49 @@
+/** Preloader
+ **************************************************************** **/
+#home img.logo,
+#slider .cycle-slider,
+#home p, 
+#countdown,
+#home ul {
+	display:none;
+}
+
+#preloader {
+    position: fixed;
+    z-index: 100;
+    top: 0; bottom: 0;
+    right: 0; left: 0;
+
+    background: #111;
+}
+
+.inner {
+    position: absolute;
+    top: 0; bottom: 0;
+    right: 0; left: 0;
+
+    width: 54px;
+    height: 54px;
+    margin: auto;
+}
+
+.inner img {
+    -webkit-animation: rotate .6s linear infinite;
+            animation: rotate .6s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    } to  {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate {
+    /* Safari and Chrome */
+
+    from {
+        -webkit-transform: rotate(0deg);
+    } to  {
+        -webkit-transform: rotate(360deg);
+    }
+}

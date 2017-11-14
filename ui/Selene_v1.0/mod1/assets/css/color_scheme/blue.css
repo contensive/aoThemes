@@ -1,0 +1,47 @@
+/* Blue
+	Main Color: 	#66B7E2
+	Hover Color: 	#36a0da
+ ************************************************* */
+::selection {
+	background:#66B7E2;
+}
+::-moz-selection {
+	background:#66B7E2;
+}
+
+
+a, a:focus, a:hover, a:active {
+	color:#66B7E2;
+	border-bottom:#66B7E2 1px dotted;
+}
+	a:focus, a:hover, a:active {
+		border-bottom:#66B7E2 1px solid;
+	}
+
+.btn-primary {
+	background-color:#66B7E2;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	border-color:#36a0da !important;
+	background-color:#36a0da;
+}
+
+	#home nav>ul.nav>li>a:before {
+		background-color: #66B7E2;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:#66B7E2;
+	}
+
+#slider h1>em,
+div.page h1>span {
+	color:#66B7E2;
+}
+
+.input-group-addon {
+	background-color:#66B7E2;
+	border-color:#66B7E2;
+}

@@ -1,0 +1,47 @@
+/* Red
+	Main Color: 	#A94545
+	Hover Color: 	#AD5251
+ ************************************************* */
+::selection {
+	background:#A94545;
+}
+::-moz-selection {
+	background:#A94545;
+}
+
+
+a, a:focus, a:hover, a:active {
+	color:#A94545;
+	border-bottom:#A94545 1px dotted;
+}
+	a:focus, a:hover, a:active {
+		border-bottom:#A94545 1px solid;
+	}
+
+.btn-primary {
+	background-color:#A94545;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	border-color:#AD5251 !important;
+	background-color:#AD5251;
+}
+
+	#home nav>ul.nav>li>a:before {
+		background-color: #A94545;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:#A94545;
+	}
+
+#slider h1>em,
+div.page h1>span {
+	color:#A94545;
+}
+
+.input-group-addon {
+	background-color:#A94545;
+	border-color:#A94545;
+}

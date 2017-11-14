@@ -1,0 +1,47 @@
+/* Orange
+	Main Color: 	#F07057
+	Hover Color: 	#ed5434
+ ************************************************* */
+::selection {
+	background:#F07057;
+}
+::-moz-selection {
+	background:#F07057;
+}
+
+
+a, a:focus, a:hover, a:active {
+	color:#F07057;
+	border-bottom:#F07057 1px dotted;
+}
+	a:focus, a:hover, a:active {
+		border-bottom:#F07057 1px solid;
+	}
+
+.btn-primary {
+	background-color:#F07057;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	border-color:#ed5434 !important;
+	background-color:#ed5434;
+}
+
+	#home nav>ul.nav>li>a:before {
+		background-color: #F07057;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:#F07057;
+	}
+
+#slider h1>em,
+div.page h1>span {
+	color:#F07057;
+}
+
+.input-group-addon {
+	background-color:#F07057;
+	border-color:#F07057;
+}

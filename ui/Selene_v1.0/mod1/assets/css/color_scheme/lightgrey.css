@@ -1,0 +1,47 @@
+/* Lightgrey
+	Main Color: 	#9E9E9E
+	Hover Color: 	#828282
+ ************************************************* */
+::selection {
+	background:#9E9E9E;
+}
+::-moz-selection {
+	background:#9E9E9E;
+}
+
+
+a, a:focus, a:hover, a:active {
+	color:#9E9E9E;
+	border-bottom:#9E9E9E 1px dotted;
+}
+	a:focus, a:hover, a:active {
+		border-bottom:#9E9E9E 1px solid;
+	}
+
+.btn-primary {
+	background-color:#9E9E9E;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	border-color:#828282 !important;
+	background-color:#828282;
+}
+
+	#home nav>ul.nav>li>a:before {
+		background-color: #9E9E9E;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:#9E9E9E;
+	}
+
+#slider h1>em,
+div.page h1>span {
+	color:#9E9E9E;
+}
+
+.input-group-addon {
+	background-color:#9E9E9E;
+	border-color:#9E9E9E;
+}

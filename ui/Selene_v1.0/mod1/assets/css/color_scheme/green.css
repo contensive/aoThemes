@@ -1,0 +1,47 @@
+/* Green
+	Main Color: 	#1EB7B1
+	Hover Color: 	#1b9e98
+ ************************************************* */
+::selection {
+	background:#1EB7B1;
+}
+::-moz-selection {
+	background:#1EB7B1;
+}
+
+
+a, a:focus, a:hover, a:active {
+	color:#1EB7B1;
+	border-bottom:#1EB7B1 1px dotted;
+}
+	a:focus, a:hover, a:active {
+		border-bottom:#1EB7B1 1px solid;
+	}
+
+.btn-primary {
+	background-color:#1EB7B1;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	border-color:#1b9e98 !important;
+	background-color:#1b9e98;
+}
+
+	#home nav>ul.nav>li>a:before {
+		background-color: #1EB7B1;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:#1EB7B1;
+	}
+
+#slider h1>em,
+div.page h1>span {
+	color:#1EB7B1;
+}
+
+.input-group-addon {
+	background-color:#1EB7B1;
+	border-color:#1EB7B1;
+}

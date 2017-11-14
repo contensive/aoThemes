@@ -1,0 +1,47 @@
+/* Pink
+	Main Color: 	#F73F69
+	Hover Color: 	#f52151
+ ************************************************* */
+::selection {
+	background:#F73F69;
+}
+::-moz-selection {
+	background:#F73F69;
+}
+
+
+a, a:focus, a:hover, a:active {
+	color:#F73F69;
+	border-bottom:#F73F69 1px dotted;
+}
+	a:focus, a:hover, a:active {
+		border-bottom:#F73F69 1px solid;
+	}
+
+.btn-primary {
+	background-color:#F73F69;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	border-color:#f52151 !important;
+	background-color:#f52151;
+}
+
+	#home nav>ul.nav>li>a:before {
+		background-color: #F73F69;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:#F73F69;
+	}
+
+#slider h1>em,
+div.page h1>span {
+	color:#F73F69;
+}
+
+.input-group-addon {
+	background-color:#F73F69;
+	border-color:#F73F69;
+}

@@ -1,0 +1,45 @@
+/** Pages
+ **************************************************************** **/
+span.page-overlay {
+	background-color:rgba(0,0,0,0.6);
+	position:fixed;
+	left:0; right:0;
+	top:0; bottom:0;
+	z-index:8;
+	
+	display:none;
+}
+	span.page-overlay.always-visible {
+		display:block;
+	}
+
+div.page {
+	position:absolute;
+	left:0; right:0;
+	top:0; bottom:0;
+	z-index:9;
+	color:#fff;
+	display:block;
+
+	text-align:center;
+
+	display:none;
+}
+div.page .container {
+	padding-bottom:100px;
+}
+div.page h1 {
+	font-family:'Dosis';
+	color:#fff;
+	font-size:55px;
+	margin-bottom:60px;
+	text-shadow:#000 0 0 2px;
+	font-weight:300;
+}
+div.page h1>span {
+	color:#1EB7B1;
+	text-shadow:#000 0 0 2px;
+}
+div.page p {
+	text-shadow:#000 0 0 2px;
+}

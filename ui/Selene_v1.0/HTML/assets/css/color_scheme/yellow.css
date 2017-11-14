@@ -1,0 +1,47 @@
+/* Yellow
+	Main Color: 	#EAA824
+	Hover Color: 	#db9b15
+ ************************************************* */
+::selection {
+	background:#EAA824;
+}
+::-moz-selection {
+	background:#EAA824;
+}
+
+
+a, a:focus, a:hover, a:active {
+	color:#EAA824;
+	border-bottom:#EAA824 1px dotted;
+}
+	a:focus, a:hover, a:active {
+		border-bottom:#EAA824 1px solid;
+	}
+
+.btn-primary {
+	background-color:#EAA824;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	border-color:#db9b15 !important;
+	background-color:#db9b15;
+}
+
+	#home nav>ul.nav>li>a:before {
+		background-color: #EAA824;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:#EAA824;
+	}
+
+#slider h1>em,
+div.page h1>span {
+	color:#EAA824;
+}
+
+.input-group-addon {
+	background-color:#EAA824;
+	border-color:#EAA824;
+}

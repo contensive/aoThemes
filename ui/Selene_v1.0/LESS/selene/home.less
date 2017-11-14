@@ -1,0 +1,163 @@
+/** Home
+ **************************************************************** **/
+#home {
+	position:inherit !important; /* youtube bg fix */
+}
+#home nav {
+	z-index:10;
+	position:fixed;
+	bottom:30px;
+	left:0; padding-left:60px;
+	color:#fff;
+	background-color:rgba(0,0,0,0.8);
+}
+#home nav.main-bottom {
+	bottom:30px;
+}
+#home nav.main-top {
+	bottom:auto;
+	top:30px;
+}
+#home nav.main-left {
+	left:0; padding-left:60px;
+}
+#home nav.main-right {
+	left:auto; padding-left:0;
+	right:0; padding-right:60px;
+}
+	#home nav>ul.nav>li>a {
+		color:#fff;
+		font-family:'Dosis';
+		font-size:16px;
+		background-color:transparent;
+		padding:10px 10px;
+		font-weight: 300;
+		position:relative;
+		text-decoration:none;
+		border-bottom:0;
+	}
+	#home nav>ul.nav>li>a:before {
+		content: ' ';
+		background-color: #1EB7B1;
+		position: absolute;
+		display: block;
+		bottom: 0px;
+		width: 0%; height: 1px;
+		left: auto; right: 0;
+
+		-webkit-transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		   -moz-transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+			 -o-transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+				transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+	}
+	#home nav>ul.nav>li>a:hover:before,
+	#home nav>ul.nav>li.active>a:before {
+		width:100%;
+		right: auto;
+		left: 0;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:#1EB7B1;
+	}
+
+/* social icons */
+ul.social.nav-pills {
+	position:fixed;
+	right:0; bottom:30px;
+	color:#fff;
+	padding-right:30px;
+	z-index:10;
+}
+ul.social.nav-pills>li>a {
+	color:#000;
+	background-color:#fff;
+	padding:6px;
+	font-size:20px;
+	width:32px;
+	height:32px;
+	text-align:center;
+	text-decoration:none;
+	margin-left:6px;
+
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+			border-radius: 50%;
+
+	-webkit-transition: All 0.3s;
+	   -moz-transition: All 0.3s;
+		 -o-transition: All 0.3s;
+			transition: All 0.3s;
+}
+ul.social.nav-pills>li>a:hover {
+	background-color:rgba(255,255,255,0.7) !important;
+}
+/* reverse position according to main menu position */
+#home nav.main-bottom+ul.social.nav-pills {
+	bottom:30px;
+}
+#home nav.main-top+ul.social.nav-pills {
+	bottom:auto;
+	top:30px;
+}
+#home nav.main-left+ul.social.nav-pills {
+	left:auto; padding-left:0;
+	right:0; padding-right:60px;
+}
+#home nav.main-right+ul.social.nav-pills {
+	right:auto; padding-right:0;
+	left:0; padding-left:60px;
+}
+
+
+
+/* slider */
+#slider {
+	overflow:hidden;
+	position:absolute;
+	left:0; right:0; top:0; bottom:0;
+	text-align:center;
+	color:#fff;
+}
+.display-table {
+	display:table;
+	width:100%;
+	height:100%;
+}
+.display-table-cell {
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+	height:100%;
+}
+#slider img.logo {
+	margin-bottom:40px;
+}
+
+#slider h1 {
+	font-weight: 600;
+	font-size: 550%;
+	line-height: 95%;
+	text-shadow: none;
+	color: #fff;
+	display: block;
+}
+#slider h1>em {
+	font-style:normal;
+	color:#1fb8b2;
+}
+#slider .cycle-slider {
+	margin-bottom:60px;
+}
+#slider .cycle-slider>.slide {
+	width:100%;
+	text-align:center !important;
+}
+
+/* hide video time */
+.mb_YTVPPlaypause,
+.mb_YTVPMuteUnmute,
+.mb_OnlyYT,
+.mb_YTVPUrl,
+.mb_YTVPTime {
+	display:none !important;
+}

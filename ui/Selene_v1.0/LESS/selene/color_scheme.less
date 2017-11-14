@@ -1,0 +1,43 @@
+::selection {
+	background:@primary-color;
+}
+::-moz-selection {
+	background:@primary-color;
+}
+
+
+a, a:focus, a:hover, a:active {
+	color:@primary-color;
+	border-bottom:@primary-color 1px dotted;
+}
+	a:focus, a:hover, a:active {
+		border-bottom:@primary-color 1px solid;
+	}
+
+.btn-primary {
+	background-color:@primary-color;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+	border-color:@btn-primary-hover-color !important;
+	background-color:@btn-primary-hover-color;
+}
+
+	#home nav>ul.nav>li>a:before {
+		background-color: @primary-color;
+	}
+	#home nav>ul.nav>li.active>a {
+		color:@primary-color;
+	}
+
+#slider h1>em,
+div.page h1>span {
+	color:@primary-color;
+}
+
+.input-group-addon {
+	background-color:@primary-color;
+	border-color:@primary-color;
+}
