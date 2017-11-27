@@ -17,14 +17,14 @@
 		<BlockEditTools>No</BlockEditTools>
 		<FormXML></FormXML>
 		<IncludeAddon name="JS Tether 1.4.0" guid="{53ab42dd-a969-4c95-894f-a5bdf9152f6a}"/>
-		<IncludeAddon name="Bootstrap" guid="{EF1FD66C-D62F-4BD2-BF07-38F47996EBB3}"/>
+		<IncludeAddon name="Bootstrap Styles" guid="{EF1FD66C-D62F-4BD2-BF07-38F47996EBB3}"/>
+		<IncludeAddon name="Bootstrap Javascript" guid="{0D898BA4-E5FC-474A-82A3-E52DEFC307E5}"/>
 		<IsInline>No</IsInline>
 		<JavascriptOnLoad></JavascriptOnLoad>
 		<JavascriptInHead></JavascriptInHead>
 		<JavascriptBodyEnd></JavascriptBodyEnd>
 		<MetaDescription></MetaDescription>
-		<OtherHeadTags><![CDATA[
-<meta charset="utf-8">
+		<OtherHeadTags><![CDATA[<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- <meta name="description" content=""> -->
 <!-- <meta name="author" content=""> -->
@@ -93,9 +93,7 @@ body {padding-top: 0;}
 	<data>
 		<record content="page templates" guid="{810894df-e740-4a9b-bb6a-b7fbff892e63}" name="Bootstrap Starter Template">
 			<field name="active">True</field>
-			<field name="bodyhtml"><![CDATA[
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<field name="bodyhtml"><![CDATA[<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 	<a class="navbar-brand" href="#">Navbar</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -116,9 +114,7 @@ body {padding-top: 0;}
 		<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
 		-->
 	</div>
-</main>			
-
-]]></field>
+</main>]]></field>
 			<field name="bodytag"><![CDATA[<Body class=ccBodyWeb>]]></field>
 			<field name="issecure">False</field>
 			<field name="jsendbody"></field>
@@ -147,9 +143,36 @@ body {padding-top: 0;}
 			<field name="classtopanchor"><![CDATA[nav-link]]></field>
 			<field name="classtopitem"><![CDATA[nav-item]]></field>
 			<field name="classtoplist"><![CDATA[navbar-nav mr-auto]]></field>
+			<field name="classtopparentanchor"><![CDATA[dropdown-toggle]]></field>
+			<field name="classtopparentitem"><![CDATA[dropdown]]></field>
 			<field name="classtopwrapper"></field>
+			<field name="datatoggletopparentanchor"><![CDATA[dropdown]]></field>
 			<field name="depth">2</field>
 			<field name="sortorder"><![CDATA[9999]]></field>
+		</record>
+		<record content="Add-on Template Rules" guid="{ac2377dc-e854-4170-b952-a0d5da1214d8}" name="">
+			<field name="active">True</field>
+			<field name="addonid">{c6c43884-22cb-413b-ae5e-a629fba7d173}</field>
+			<field name="sortorder"></field>
+			<field name="templateid">{810894df-e740-4a9b-bb6a-b7fbff892e63}</field>
+		</record>
+		<record content="Add-on Include Rules" guid="{1c02eb15-308b-4596-bd73-19fd06605201}" name="">
+			<field name="active">True</field>
+			<field name="addonid">{c6c43884-22cb-413b-ae5e-a629fba7d173}</field>
+			<field name="includedaddonid">{53ab42dd-a969-4c95-894f-a5bdf9152f6a}</field>
+			<field name="sortorder"></field>
+		</record>
+		<record content="Add-on Include Rules" guid="{69b02f6e-3fa9-4b41-a8eb-aa12ee4e3569}" name="">
+			<field name="active">True</field>
+			<field name="addonid">{c6c43884-22cb-413b-ae5e-a629fba7d173}</field>
+			<field name="includedaddonid">{EF1FD66C-D62F-4BD2-BF07-38F47996EBB3}</field>
+			<field name="sortorder"></field>
+		</record>
+		<record content="Add-on Include Rules" guid="{575fd1d3-f69c-4c33-ab41-2ea13b8bb616}" name="">
+			<field name="active">True</field>
+			<field name="addonid">{c6c43884-22cb-413b-ae5e-a629fba7d173}</field>
+			<field name="includedaddonid">{0D898BA4-E5FC-474A-82A3-E52DEFC307E5}</field>
+			<field name="sortorder"></field>
 		</record>
 	</data>
 	<ImportCollection name="Bootstrap">{2d3f9a21-9602-4549-b5df-5e09a9dae57e}</ImportCollection>
