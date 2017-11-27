@@ -23,7 +23,8 @@
 		<JavascriptInHead></JavascriptInHead>
 		<JavascriptBodyEnd></JavascriptBodyEnd>
 		<MetaDescription></MetaDescription>
-		<OtherHeadTags><![CDATA[<meta charset="utf-8">
+		<OtherHeadTags><![CDATA[
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- <meta name="description" content=""> -->
 <!-- <meta name="author" content=""> -->
@@ -32,7 +33,8 @@
 <!-- Bootstrap core CSS -->
 <!-- <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
 <!-- Custom styles for this template -->
-<!-- <link href="starter-template.css" rel="stylesheet"> -->]]></OtherHeadTags>
+<!-- <link href="starter-template.css" rel="stylesheet"> -->
+]]></OtherHeadTags>
 		<Content>No</Content>
 		<Template>No</Template>
 		<Email>No</Email>
@@ -46,13 +48,10 @@
 		<ProcessInterval>0</ProcessInterval>
 		<PageTitle></PageTitle>
 		<RemoteAssetLink></RemoteAssetLink>
-		<Styles><![CDATA[body {
-  padding-top: 0;
-}
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: left;
-}]]></Styles>
+		<Styles><![CDATA[
+body {padding-top: 0;}
+.starter-template {padding: 4rem 1.5rem;text-align: left;}
+]]></Styles>
 		<Scripting Language="" EntryPoint="" Timeout="5000"/>
 	</Addon>
 	<Addon name="JS Tether 1.4.0" guid="{53ab42dd-a969-4c95-894f-a5bdf9152f6a}" type="Add-on">
