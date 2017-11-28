@@ -100,8 +100,8 @@ body {padding-top: 0;}
 	</button>
 	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 		{% {"addon":{"addon":"Bootstrap Navbar Basic","instanceId":"{1119a5f9-6a15-435a-95d5-fe0af3c89f9f}"}} %}
-		<form class="form-inline my-2 my-lg-0" >
-			<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+		<form method="get" action="/search" class="form-inline my-2 my-lg-0" >
+			<input name="searchTerm" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
 			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 		</form>
 	</div>
