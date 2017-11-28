@@ -137,8 +137,8 @@ body {padding-top: 0;}
 			<field name="classitemfirst"><![CDATA[first]]></field>
 			<field name="classitemhover"><![CDATA[hover]]></field>
 			<field name="classitemlast"><![CDATA[last]]></field>
-			<field name="classtieranchor"><![CDATA[nav-link]]></field>
-			<field name="classtieritem"><![CDATA[nav-item]]></field>
+			<field name="classtieranchor"><![CDATA[dropdown-item]]></field>
+			<field name="classtieritem"></field>
 			<field name="classtierlist"><![CDATA[dropdown-menu]]></field>
 			<field name="classtopanchor"><![CDATA[nav-link]]></field>
 			<field name="classtopitem"><![CDATA[nav-item]]></field>
