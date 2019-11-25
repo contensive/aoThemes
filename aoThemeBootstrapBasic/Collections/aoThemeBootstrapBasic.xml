@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Collection name="Theme, Bootstrap Basic" guid="{280F865E-7AB6-4955-99CF-8B930E4ABF53}" system="No" updatable="No" blockNavigatorNode="Yes">
+	<Addon name="Theme, Bootstrap Basic Assets" guid="{c6c43884-22cb-413b-ae5e-a629fba7d173}" type="Add-on">
+		<Copy></Copy>
+		<CopyText></CopyText>
+		<ActiveXProgramID></ActiveXProgramID>
+		<DotNetClass></DotNetClass>
+		<ArgumentList></ArgumentList>
+		<AsAjax>No</AsAjax>
+		<Filter>No</Filter>
+		<Help></Help>
+		<HelpLink></HelpLink>
+		<Icon Link="" width="0" height="0" sprites="0" />
+		<InIframe>No</InIframe>
+		<BlockEditTools>Yes</BlockEditTools>
+		<FormXML></FormXML>
+		<IncludeAddon name="Bootstrap" guid="{EF1FD66C-D62F-4BD2-BF07-38F47996EBB3}"/>
+		<IsInline>No</IsInline>
+		<JavascriptInHead><![CDATA[]]></JavascriptInHead>
+		<javascriptForceHead>No</javascriptForceHead>
+		<JSHeadScriptSrc></JSHeadScriptSrc>
+		<!-- deprecated --><JSBodyScriptSrc></JSBodyScriptSrc>
+		<!-- deprecated --><JavascriptBodyEnd></JavascriptBodyEnd>
+		<!-- deprecated --><JavascriptOnLoad></JavascriptOnLoad>
+		<Content>No</Content>
+		<Template>No</Template>
+		<Email>No</Email>
+		<Admin>No</Admin>
+		<OnPageEndEvent>No</OnPageEndEvent>
+		<OnPageStartEvent>No</OnPageStartEvent>
+		<OnBodyStart>No</OnBodyStart>
+		<OnBodyEnd>No</OnBodyEnd>
+		<RemoteMethod>No</RemoteMethod>
+		<ProcessRunOnce>No</ProcessRunOnce>
+		<ProcessInterval>0</ProcessInterval>
+		<MetaDescription></MetaDescription>
+		<OtherHeadTags><![CDATA[<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">]]></OtherHeadTags>
+		<PageTitle></PageTitle>
+		<RemoteAssetLink></RemoteAssetLink>
+		<Styles><![CDATA[
+			/*
+			* keep footer at bottom with main wrapper. Adjust footer height.
+			*/
+			html { height: 100%; }
+			body { min-height: 100%; padding-top: 0;}
+			.all-except-footer { min-height: calc(100vh - 60px); }
+			.footer { height: 60px; }		
+		]]></Styles>
+		<styleslinkhref></styleslinkhref>
+		<Scripting Language="" EntryPoint="" Timeout="5000"/>
+	</Addon>
+	<data>
+		<record content="page templates" guid="{810894df-e740-4a9b-bb6a-b7fbff892e63}" name="Single Column Template, Bootstrap Basic Theme">
+			<field name="active">True</field>
+			<field name="bodyhtml"><![CDATA[
+				<main class="all-except-footer">
+					<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+						<div class="mr-auto"><a class="navbar-brand" href="/">{% "Bootstrap Nav Brand" %}</a></div>
+						<div class="">{% {"Bootstrap Nav Menu":{"instanceId":"{1119a5f9-6a15-435a-95d5-fe0af3c89f9f}"}} %}</div>
+						<div class="ml-auto text-light">{% "login Button Form" %}</div>
+					</nav>
+					<section role="main">
+						<div class="container starter-template pt-5">
+						{% "content box" %}
+						</div>
+					</section>			
+				</main>			
+				<footer class="footer bg-dark">
+					<div class="container-fluid text-center copyrights py-3" id="main-bg">
+						<div class="container">
+							<span class="text-white">Copyright 2019 Contensive. All Rights Reserved. 
+							<a href="/Contact-Us" class="pl-2 text-white">Contact Us</a>
+							<a href="https://www.facebook.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-facebook-f text-white"></i></a> 
+							<a href="https://twitter.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-twitter text-white"></i></a> 
+							<a href="https://www.youtube.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-youtube text-white"></i></a> 
+							<!-- <a href="http://www.pinterest.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-pinterest-p text-white"></i></a> -->
+							<a href="/rss/Latest-News.xml" class="rounded-circle pl-2"><i class="fas fa-rss text-white"></i></a>
+							</span>
+						</div>
+					</div>
+				</footer>
+			]]></field>
+			<field name="bodytag"><![CDATA[<Body class=ccBodyWeb>]]></field>
+			<field name="collectionid"></field>
+			<field name="issecure">False</field>
+			<field name="jsendbody"></field>
+			<field name="jsfilename"></field>
+			<field name="jshead"></field>
+			<field name="jsonload"></field>
+			<field name="link"></field>
+			<field name="mobilebodyhtml"></field>
+			<field name="mobilestylesfilename"></field>
+			<field name="otherheadtags"></field>
+			<field name="sortorder"></field>
+			<field name="source"></field>
+			<field name="stylesfilename"></field>
+		</record>
+		<record content="menus" guid="{1119a5f9-6a15-435a-95d5-fe0af3c89f9f}" name="Header Nav Menu">
+			<field name="active">True</field>
+			<field name="addroottotier">False</field>
+			<field name="classflyoutparent"><![CDATA[flyoutParent]]></field>
+			<field name="classitemactive"><![CDATA[active]]></field>
+			<field name="classitemfirst"><![CDATA[first]]></field>
+			<field name="classitemhover"><![CDATA[hover]]></field>
+			<field name="classitemlast"><![CDATA[last]]></field>
+			<field name="classtieranchor"><![CDATA[dropdown-item]]></field>
+			<field name="classtieritem"></field>
+			<field name="classtierlist"><![CDATA[dropdown-menu]]></field>
+			<field name="classtopanchor"><![CDATA[nav-link]]></field>
+			<field name="classtopitem"><![CDATA[nav-item]]></field>
+			<field name="classtoplist"><![CDATA[navbar-nav mr-auto]]></field>
+			<field name="classtopparentanchor"><![CDATA[dropdown-toggle]]></field>
+			<field name="classtopparentitem"><![CDATA[dropdown]]></field>
+			<field name="classtopwrapper"></field>
+			<field name="datatoggletopparentanchor"><![CDATA[dropdown]]></field>
+			<field name="depth">2</field>
+			<field name="sortorder"><![CDATA[9999]]></field>
+		</record>
+		<record content="Add-on Template Rules" guid="{ac2377dc-e854-4170-b952-a0d5da1214d8}" name="">
+			<field name="active">True</field>
+			<field name="addonid">{c6c43884-22cb-413b-ae5e-a629fba7d173}</field>
+			<field name="sortorder"></field>
+			<field name="templateid">{810894df-e740-4a9b-bb6a-b7fbff892e63}</field>
+		</record>
+	</data>
+	<ImportCollection name="Bootstrap">{2d3f9a21-9602-4549-b5df-5e09a9dae57e}</ImportCollection>
+</Collection>
