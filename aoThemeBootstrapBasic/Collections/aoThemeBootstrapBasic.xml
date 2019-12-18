@@ -50,6 +50,57 @@
 		<Scripting Language="" EntryPoint="" Timeout="5000"/>
 	</Addon>
 	<data>
+
+		<record content="page templates" guid="{560C0081-065A-41B1-BE37-CC54739E67F2}" name="Full Bleed Template, Bootstrap Basic Theme">
+			<field name="active">True</field>
+			<field name="bodyhtml"><![CDATA[
+				<main class="all-except-footer">
+					<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+						<div class="mr-auto"><a class="navbar-brand" href="/">{% "Bootstrap Nav Brand" %}</a></div>
+						<div class="">{% {"Bootstrap Nav Menu":{"instanceId":"{1119a5f9-6a15-435a-95d5-fe0af3c89f9f}"}} %}</div>
+						<div class="ml-auto text-light">{% "login Button Form" %}</div>
+					</nav>
+					<section role="main">
+						<div class="container-fluid p-0">
+							<div class="row">
+								<div class="col-12">
+									{% "content box" %}
+								</div>
+							</div>
+						</div>
+					</section>			
+				</main>			
+				<footer class="footer bg-dark">
+					<div class="container-fluid text-center copyrights py-3" id="main-bg">
+						<div class="container">
+							<span class="text-white">Copyright 2019 Contensive. All Rights Reserved. 
+							<a href="/Contact-Us" class="pl-2 text-white">Contact Us</a>
+							<a href="https://www.facebook.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-facebook-f text-white"></i></a> 
+							<a href="https://twitter.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-twitter text-white"></i></a> 
+							<a href="https://www.youtube.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-youtube text-white"></i></a> 
+							<!-- <a href="http://www.pinterest.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-pinterest-p text-white"></i></a> -->
+							<a href="/rss/Latest-News.xml" class="rounded-circle pl-2"><i class="fas fa-rss text-white"></i></a>
+							</span>
+						</div>
+					</div>
+				</footer>
+			]]></field>
+			<field name="bodytag"><![CDATA[<Body class=ccBodyWeb>]]></field>
+			<field name="collectionid"></field>
+			<field name="issecure">False</field>
+			<field name="jsendbody"></field>
+			<field name="jsfilename"></field>
+			<field name="jshead"></field>
+			<field name="jsonload"></field>
+			<field name="link"></field>
+			<field name="mobilebodyhtml"></field>
+			<field name="mobilestylesfilename"></field>
+			<field name="otherheadtags"></field>
+			<field name="sortorder"></field>
+			<field name="source"></field>
+			<field name="stylesfilename"></field>
+		</record>
+
 		<record content="page templates" guid="{810894df-e740-4a9b-bb6a-b7fbff892e63}" name="Single Column Template, Bootstrap Basic Theme">
 			<field name="active">True</field>
 			<field name="bodyhtml"><![CDATA[
@@ -95,6 +146,7 @@
 			<field name="source"></field>
 			<field name="stylesfilename"></field>
 		</record>
+
 		<record content="menus" guid="{1119a5f9-6a15-435a-95d5-fe0af3c89f9f}" name="Header Nav Menu">
 			<field name="active">True</field>
 			<field name="addroottotier">False</field>
@@ -121,6 +173,12 @@
 			<field name="addonid">{c6c43884-22cb-413b-ae5e-a629fba7d173}</field>
 			<field name="sortorder"></field>
 			<field name="templateid">{810894df-e740-4a9b-bb6a-b7fbff892e63}</field>
+		</record>
+		<record content="Add-on Template Rules" guid="{59F04EB4-2C88-4552-A937-B5E7A87F723C}" name="">
+			<field name="active">True</field>
+			<field name="addonid">{c6c43884-22cb-413b-ae5e-a629fba7d173}</field>
+			<field name="sortorder"></field>
+			<field name="templateid">{560C0081-065A-41B1-BE37-CC54739E67F2}</field>
 		</record>
 	</data>
 	<ImportCollection name="Bootstrap">{2d3f9a21-9602-4549-b5df-5e09a9dae57e}</ImportCollection>
