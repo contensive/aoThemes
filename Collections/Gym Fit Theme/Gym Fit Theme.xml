@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Collection name="Gym Fit Theme" guid="{23b54247-d264-4575-be81-1e8d3ae389fa}" system="No" updatable="Yes" blockNavigatorNode="No" onInstallAddonGuid="">
+	<HelpLink></HelpLink>
+	<Help></Help>
+	<Addon name="Gym Fit Asset" guid="{73d4cde5-f2ff-43f3-be76-e4c2fdf3d78d}" type="Add-on">
+		<AsAjax>No</AsAjax>
+		<Filter>No</Filter>
+		<Icon Link="" width="50" height="50" sprites="0" />
+		<InIframe>No</InIframe>
+		<BlockEditTools>Yes</BlockEditTools>
+		<IsInline>No</IsInline>
+		<javascriptForceHead>No</javascriptForceHead>
+		<Content>No</Content>
+		<Template>No</Template>
+		<Email>No</Email>
+		<Admin>No</Admin>
+		<OnPageEndEvent>No</OnPageEndEvent>
+		<OnPageStartEvent>No</OnPageStartEvent>
+		<OnBodyStart>No</OnBodyStart>
+		<OnBodyEnd>No</OnBodyEnd>
+		<RemoteMethod>No</RemoteMethod>
+		<Diagnostic>No</Diagnostic>
+		<ProcessRunOnce>No</ProcessRunOnce>
+		<ProcessInterval>0</ProcessInterval>
+		<Styles><![CDATA[.bootstrapNavCon {width: 100%}]]></Styles>
+		<styleslinkhref><![CDATA[gymFit/css/style.css]]></styleslinkhref>
+		<Scripting Language="" EntryPoint="" Timeout="5000"/>
+	</Addon>
+	<Template name="Gym Fit" guid="{1c049577-a887-490b-b214-e1ccebd40ea8}" issecure="No" ><![CDATA[<nav class="navbar navbar-expand-lg navigation sticky-top bg-black-50 navbar-dark" id="navbar">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="/home">
+			<h2 class="text-white text-capitalize">Gym<span class="text-color">Fit</span></h2>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsid" aria-controls="navbarsid" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="ti-view-list"></span>
+		</button>
+		<div class="mx-auto collapse text-center navbar-collapse" id="navbarsid">
+            {% "Navbar-Nav" %}
+		</div>
+		<div class="mb-0">{%"Login Button Form"%}</div>
+	</div>
+</nav>
+
+<div>
+  <span>{% "content box" %}</span>
+</div>
+
+<footer class="footer bg-black-50">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+				<h2 class="text-white mb-4">GymFit</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo ad quo sunt maiores, sint nostrum omnis eaque cumque dolorum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+
+
+			<div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+				<div class="footer-widget recent-blog">
+					<h4 class="mb-4 text-white letter-spacing text-uppercase">Recents Posts</h4>
+					<div>
+						<a href="blog-single.html" class="text-white">Claritas est etiam processus dynamicus</a>
+						<p class="text-sm mt-2 text-white-50">30 february 2019</p>
+					</div>
+					<div class="mt-4">
+						<a href="blog-single.html" class="text-white">Claritas est etiam processus dynamicus</a>
+						<p class="text-sm mt-2 text-white-50">30 february 2019</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-5 mb-5 mb-lg-0">
+				<div class="footer-widget">
+					<h4 class="mb-4 text-white letter-spacing text-uppercase">Quick Links</h4>
+					<ul class="list-unstyled footer-menu lh-40 mb-0">
+						<li><a href="/about-us"><i class="ti-angle-double-right mr-2"></i>About Us</a></li>
+						<li><a href="/events"><i class="ti-angle-double-right mr-2"></i>Events</a></li>
+						<li><a href="/membership"><i class="ti-angle-double-right mr-2"></i>Membership</a></li>
+						<li><a href="/education"><i class="ti-angle-double-right mr-2"></i>Courses</a></li>
+						<li><a href="/contact-us"><i class="ti-angle-double-right mr-2"></i>Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-5">
+				<div class="footer-widget">
+					<h4 class="mb-4 text-white letter-spacing text-uppercase">Home location</h4>
+					<p>Washington 6036 Richmond
+					hwy., Alexandria, VA USA 22303 </p>
+					<span class="text-white">+1 (409) 987–5874</span>
+					<span class="text-white">info@demolink.org</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row align-items-center mt-5 px-3 bg-black mx-1">
+			<div class="col-lg-4">
+				<p class="text-white mt-3">Gymfit © 2019</p>
+			</div>
+			<div class="col-lg-6 ml-auto text-right">
+				<ul class="list-inline mb-0 footer-socials">
+					<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+   ]]>
+	</Template>
+</Collection>
