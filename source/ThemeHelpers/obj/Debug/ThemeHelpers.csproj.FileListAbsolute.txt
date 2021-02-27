@@ -1,0 +1,8 @@
+C:\Git\aoThemes\source\ThemeHelpers\bin\Debug\CPBase.dll
+C:\Git\aoThemes\source\ThemeHelpers\bin\Debug\ContensiveDbModels.dll
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\ThemeHelpers.csproj.CoreCompileInputs.cache
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\ThemeHelpers.csproj.CopyComplete
+C:\Git\aoThemes\source\ThemeHelpers\bin\Debug\ThemeHelpers.dll
+C:\Git\aoThemes\source\ThemeHelpers\bin\Debug\ThemeHelpers.pdb
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\ThemeHelpers.dll
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\ThemeHelpers.pdb

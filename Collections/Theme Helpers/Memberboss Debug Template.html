@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+    <title>Memberboss Debug Template</title>
+    <meta name="template" content="Memberboss Debug Template">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  </head>
+
+  <body>
+    <div class="container py-4">
+      <h2>Memberboss Debug Template</h2>
+      <p>Features displayed on this page are installed by the Memberboss Features collection. If the templates that include these elements are uploaded with the HtmlImport tool, they can be added:</p>
+      <p>To add to a template that will be uploaded with the HtmlImport tool, use the following.</p>
+      <div style="margin-left:50px;">
+        <pre class="example-pre-code"><h6>Add to a template that will be uploaded with the Html Import tool.</h6><code>
+          &lt;nav class="navbar navbar-expand-lg header-block-top">
+            &lt;div class="collapse navbar-collapse" id="navbar" data-addon="Template-Header-Navbar-Nav" >
+              &lt;!-- placeholder html that is removed when template is uploaded -->
+            &lt;/div>
+          &lt;/nav>
+        </code></pre>
+        <pre class="example-pre-code"><h6>Add to a template that will be added manually, or within an Add-on collection.</h6><code>
+          &lt;nav class="navbar navbar-expand-lg header-block-top">
+            &lt;div class="collapse navbar-collapse" id="navbar">
+              {<i></i>% Template-Header-Navbar-Nav %}
+            &lt;/div>
+          &lt;/nav>
+        </code></pre>
+      </div>
+      <!--
+        Template-Header-Navbar-Nav
+      -->
+      <h4>Template-Header-Navbar-Nav</h4>
+      <div styles="margin-left:50px">
+        <p>Executes the Navbar-Nav addon for the template header. The navbar-nav addon creates html compatible with the Bootstrap navbar in the position where the class="navbar-nav" exists.</p>
+        <!-- example html -->
+        <div style="margin-left:50px;">
+          <pre class="example-pre-code"><h6>How to Use</h6><code>
+            &lt;nav class="navbar navbar-expand-lg header-block-top">
+              &lt;div class="collapse navbar-collapse" id="navbar" data-addon="Template-Header-Navbar-Nav" >
+                &lt;!-- placeholder html that is removed when template is uploaded -->
+              &lt;/div>
+            &lt;/nav>
+          </code></pre>
+        </div>
+        <!-- example rendered -->
+        <div style="margin-left:50px;" class="example-pre-code">
+            <h6>Example</h6>
+            <nav class="navbar navbar-expand-lg header-block-top">
+              <div class="collapse navbar-collapse" id="navbar">
+                {% Template-Header-Navbar-Nav %}
+              </div>
+            </nav>
+        </div>
+      </div>
+      <!--
+        Template-Header-Brand-Img
+      -->
+      <h4>Template-Header-Brand-Img</h4>
+      <div styles="margin-left:50px">
+        <p>Is replaced with an html image tag. It should be used in the navbar brand of the header section in the template.</p>
+        <!-- example html -->
+        <div style="margin-left:50px;">
+          <pre class="example-pre-code"><h6>How to Use</h6><code>
+            &lt;nav class="navbar navbar-expand-lg navbar-light bg-light">
+              &lt;a class="navbar-brand" href="#" data-addon="Template-Header-Brand-Img">&lt;img href="placeholder.png">&lt;/a>
+            &lt;/nav>
+          </code></pre>
+        </div>
+        <!-- example rendered -->
+        <div style="margin-left:50px;" class="example-pre-code">
+          <h6>Example</h6>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">{% Template-Header-Brand-Img %}</a>
+          </nav>
+        </div>
+      </div>
+      <!--
+        Template-Header-Brand-Name
+      -->
+      <h4>Template-Header-Brand-Name</h4>
+      <div styles="margin-left:50px">
+        <p>Company name in header.</p>
+        <!-- example rendered -->
+        <div style="margin-left:50px;" class="example-pre-code">
+          <h6>Example</h6>
+          {% Template-Header-Brand-Name %}
+        </div>
+      </div>
+      <!--
+        Template-Header-Location
+      -->
+      <h4>Template-Header-Location</h4>
+      <div styles="margin-left:50px">
+        <p>A clickable map tack and the address.</p>
+        <!-- example rendered -->
+        <div style="margin-left:50px;" class="example-pre-code">
+          <h6>Example</h6>
+          {% Template-Header-Location %}
+        </div>
+      </div>
+      <!--
+        Template-SocialMedia-Links
+      -->
+      <h4>Template-SocialMedia-Links</h4>
+      <div styles="margin-left:50px">
+        <p>A list of social media links.</p>
+        <!-- example rendered -->
+        <div style="margin-left:50px;" class="example-pre-code">
+          <h6>Example</h6>
+          {% Template-SocialMedia-Links %}
+        </div>
+      </div>
+      <!--
+        Template-Footer-Hours
+      -->
+      <h4>Template-Footer-Hours</h4>
+      <div styles="margin-left:50px">
+        <p>Hours of Operation.</p>
+        <!-- example rendered -->
+        <div style="margin-left:50px;" class="example-pre-code">
+          <h6>Example</h6>
+          {% Template-Footer-Hours %}
+        </div>
+      </div>
+      <!--
+        Template-Footer-About
+      -->
+      <h4>Template-Footer-About</h4>
+      <div styles="margin-left:50px">
+        <p>About-Us section of footer.</p>
+        <!-- example rendered -->
+        <div style="margin-left:50px;" class="example-pre-code">
+          <h6>Example</h6>
+          {% Template-Footer-About %}
+        </div>
+      </div>
+      <!--
+        Template-Footer-Contact
+      -->
+      <h4>Template-Footer-Contact</h4>
+      <div styles="margin-left:50px">
+        <p>Contact-Us section of footer.</p>
+        <!-- example rendered -->
+        <div style="margin-left:50px;" class="example-pre-code">
+          <h6>Example</h6>
+          {% Template-Footer-Contact %}
+        </div>
+      </div>
+      <!--
+        Template-Footer-Copyright
+      -->
+      <h4>Template-Footer-Copyright</h4>
+      <div styles="margin-left:50px">
+        <p>Typical Copyright notice.</p>
+        <!-- example rendered -->
+        <div style="margin-left:50px;" class="example-pre-code">
+          <h6>Example</h6>
+          {% Template-Footer-Copyright %}
+        </div>
+      </div>
+    <style>
+      .example-pre-code {margin:20px 0;padding:10px;border:1px solid #e0e0e0;background-color:#f8f8f8;}
+    </style>
+  </body>
+</html>

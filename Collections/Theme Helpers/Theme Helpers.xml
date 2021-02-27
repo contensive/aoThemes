@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Collection name="Theme Helpers" guid="{371F8EFF-FF64-4F86-9FB8-FCAADD20E87B}" system="No" updatable="Yes" blockNavigatorNode="No" onInstallAddonGuid="{05E44374-93B8-4B2D-9CB8-A16C1BF0F3B2}">
+	<HelpLink></HelpLink>
+	<Help>The collection includes helper addons used in the MemberBoss Template Themes to make the placement and edit processes more intuitive. It shoudle be included in Theme collections.</Help>
+	<Addon name="Theme Helpers OnInstall" guid="{05E44374-93B8-4B2D-9CB8-A16C1BF0F3B2}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.OnInstallThemeHelpers</DotNetClass>
+	</Addon>
+	<Addon name="Template-Header-Navbar-Nav" guid="{0FA0425A-2386-4C5C-92AE-96928753637A}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateHeaderNavbarNavClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-Header-Navbar-Li-List" guid="{2E6BEC8D-148E-4C20-BF7A-B4BF2582CB1C}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateHeaderNavbarLiListClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-Header-Navbar-UL" guid="{E803DDFD-AF99-4717-8B08-62BF517F4991}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateHeaderNavbarULClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-Header-Brand-Img" guid="{7A4B0B51-8A9E-45CE-A181-166C41267A7D}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateHeaderBrandImgClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-Header-Brand-Name" guid="{D085B986-98CB-4915-933B-83170BDFF9D7}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateHeaderBrandNameClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-Header-Location" guid="{5FBDA545-2F13-4AFC-879E-3A800A8EAF4E}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateHeaderLocationClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-Footer-Hours" guid="{51CC66CF-CD1C-42E7-93A6-7B66B6745068}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateFooterHoursClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-Footer-Contact" guid="{6053D0D5-B245-4EE1-8A6A-A92B485C6B1F}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateFooterContactClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-Footer-About" guid="{D3D3806E-E714-4283-BD33-0BCD0C14E80A}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateFooterAboutClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-Footer-Copyright" guid="{E54B95DC-3C0A-453D-A468-CC6223B53968}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateFooterCopyrightClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Addon name="Template-SocialMedia-Links" guid="{F0C5A30D-7936-4ADA-B83E-179EE4A01FCA}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.TemplateSocialMediaLinksClass</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+	</Addon>
+	<Resource name="Template-Footer-About.html" type="file" path="memberboss" />
+	<Resource name="Template-Footer-Contact.html" type="file" path="memberboss" />
+	<Resource name="Template-Footer-Hours.html" type="file" path="memberboss" />
+	<Resource name="Template-Footer-Copyright.html" type="file" path="memberboss" />
+	<Resource name="Template-Header-Location.html" type="file" path="memberboss" />
+	<Resource name="Template-SocialMedia-Links.html" type="file" path="memberboss" />
+</Collection>

@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Contensive.CPBaseClass/20.12.6.18": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CPBase.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CPBase.dll": {}
+        }
+      },
+      "Contensive.DbModels/20.12.6.18": {
+        "type": "package",
+        "dependencies": {
+          "Contensive.CPBaseClass": "20.12.6.18"
+        },
+        "compile": {
+          "lib/net45/ContensiveDbModels.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ContensiveDbModels.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Contensive.CPBaseClass/20.12.6.18": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CPBase.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CPBase.dll": {}
+        }
+      },
+      "Contensive.DbModels/20.12.6.18": {
+        "type": "package",
+        "dependencies": {
+          "Contensive.CPBaseClass": "20.12.6.18"
+        },
+        "compile": {
+          "lib/net45/ContensiveDbModels.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ContensiveDbModels.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Contensive.CPBaseClass/20.12.6.18": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CPBase.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CPBase.dll": {}
+        }
+      },
+      "Contensive.DbModels/20.12.6.18": {
+        "type": "package",
+        "dependencies": {
+          "Contensive.CPBaseClass": "20.12.6.18"
+        },
+        "compile": {
+          "lib/net45/ContensiveDbModels.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ContensiveDbModels.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Contensive.CPBaseClass/20.12.6.18": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CPBase.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CPBase.dll": {}
+        }
+      },
+      "Contensive.DbModels/20.12.6.18": {
+        "type": "package",
+        "dependencies": {
+          "Contensive.CPBaseClass": "20.12.6.18"
+        },
+        "compile": {
+          "lib/net45/ContensiveDbModels.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ContensiveDbModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contensive.CPBaseClass/20.12.6.18": {
+      "sha512": "IhfF6VpsAvfvljTYrJ379UHql24np1Nk0ZcjsTHDsxiEmiGT1T4v80Qpy6ThCEmPxnCDt4N4peWyPJJGnLkV0g==",
+      "type": "package",
+      "path": "contensive.cpbaseclass/20.12.6.18",
+      "files": [
+        ".nupkg.metadata",
+        "LogoBalls.png",
+        "contensive.cpbaseclass.20.12.6.18.nupkg.sha512",
+        "contensive.cpbaseclass.nuspec",
+        "lib/net40/CPBase.dll",
+        "lib/net40/CPBase.xml",
+        "lib/net45/CPBase.dll",
+        "lib/net45/CPBase.xml",
+        "lib/netstandard2.0/CPBase.dll",
+        "lib/netstandard2.0/CPBase.xml"
+      ]
+    },
+    "Contensive.DbModels/20.12.6.18": {
+      "sha512": "WnPzfbiHfln+NAuT6JMl9dBAzX/g8vUlkodpH96qvXaIULRMlIwHLjsgvU5NjsTynX2u7Hkg0Mut5aiKpKrwkw==",
+      "type": "package",
+      "path": "contensive.dbmodels/20.12.6.18",
+      "files": [
+        ".nupkg.metadata",
+        "LogoBalls.png",
+        "contensive.dbmodels.20.12.6.18.nupkg.sha512",
+        "contensive.dbmodels.nuspec",
+        "lib/net45/ContensiveDbModels.dll",
+        "lib/net45/ContensiveDbModels.xml",
+        "lib/netstandard2.0/ContensiveDbModels.dll",
+        "lib/netstandard2.0/ContensiveDbModels.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Contensive.CPBaseClass >= 20.12.6.18",
+      "Contensive.DbModels >= 20.12.6.18"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jay\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Git\\aoThemes\\source\\ThemeHelpers\\ThemeHelpers.csproj",
+      "projectName": "ThemeHelpers",
+      "projectPath": "C:\\Git\\aoThemes\\source\\ThemeHelpers\\ThemeHelpers.csproj",
+      "packagesPath": "C:\\Users\\jay\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\aoThemes\\source\\ThemeHelpers\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\NuGetLocalPackages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Contensive.CPBaseClass": {
+            "target": "Package",
+            "version": "[20.12.6.18, )"
+          },
+          "Contensive.DbModels": {
+            "target": "Package",
+            "version": "[20.12.6.18, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

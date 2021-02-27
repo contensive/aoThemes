@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Collection name="MenuCrm Theme" guid="{870A9BFD-4CF8-4D2E-9E8A-BC730A37292D}" system="No" updatable="No" blockNavigatorNode="No" onInstallAddonGuid="">
+	<HelpLink/>
+	<Help/>
+	<Addon name="MenuCrm Theme Assets" guid="{57b167b2-b85e-4964-8fb8-4a5506209e19}" type="Add-on">
+		<Copy/>
+		<CopyText/>
+		<DotNetClass/>
+		<ArgumentList/>
+		<instanceSettingPrimaryContentId/>
+		<AsAjax>No</AsAjax>
+		<Filter>No</Filter>
+		<Help/>
+		<HelpLink/>
+		<Icon Link="" width="50" height="50" sprites="0" />
+		<InIframe>No</InIframe>
+		<BlockEditTools>Yes</BlockEditTools>
+		<AliasList/>
+		<FormXML/>
+		<IsInline>No</IsInline>
+		<JavascriptInHead/>
+		<javascriptForceHead>No</javascriptForceHead>
+		<JSHeadScriptSrc/>
+		<!-- deprecated -->
+		<JSBodyScriptSrc/>
+		<!-- deprecated -->
+		<JavascriptBodyEnd/>
+		<!-- deprecated -->
+		<JavascriptOnLoad/>
+		<Content>No</Content>
+		<Template>No</Template>
+		<Email>No</Email>
+		<Admin>No</Admin>
+		<OnPageEndEvent>No</OnPageEndEvent>
+		<OnPageStartEvent>No</OnPageStartEvent>
+		<OnBodyStart>No</OnBodyStart>
+		<OnBodyEnd>No</OnBodyEnd>
+		<RemoteMethod>No</RemoteMethod>
+		<Diagnostic>No</Diagnostic>
+		<category/>
+		<ProcessRunOnce>No</ProcessRunOnce>
+		<ProcessInterval>0</ProcessInterval>
+		<MetaDescription/>
+		<OtherHeadTags>
+			<![CDATA[<meta name="viewport" content="width=device-width, initial-scale=1.0">]]>
+		</OtherHeadTags>
+		<PageTitle/>
+		<RemoteAssetLink/>
+		<Styles>
+			<![CDATA[ul.navbar-nav li.orderOnlineNav a {  
+    background-color: white;
+    color: black;
+    border-radius: 50px !important;
+    padding-right: 20px;
+    padding-left: 20px;
+  text-align: center !important;
+   /* test */
+}]]>
+		</Styles>
+		<styleslinkhref>
+			<![CDATA[restaurant/css/style.css]]>
+		</styleslinkhref>
+		<Scripting Language="" EntryPoint="" Timeout="5000"/>
+	</Addon>
+	<data>
+		<record content="Page Templates" guid="{01b5b189-6a18-45d0-a758-04dbae11c8e4}" name="MenuCrm Single Column">
+			<field name="name">
+				<![CDATA[MenuCrm Single Column]]>
+			</field>
+			<field name="active">True</field>
+			<field name="sortorder"/>
+			<field name="dateadded">11/10/2020 12:42:25 PM</field>
+			<field name="createdby"/>
+			<field name="modifieddate">2/22/2021 6:06:50 AM</field>
+			<field name="modifiedby">{a5a1b345-69dc-4b55-a24b-c0adeeaf0382}</field>
+			<field name="createkey">0</field>
+			<field name="ccguid">
+				<![CDATA[{01b5b189-6a18-45d0-a758-04dbae11c8e4}]]>
+			</field>
+			<field name="bodyhtml">
+				<![CDATA[  <div id="page-container">
+    <div id="content-wrapper">
+      <div id="site-header">
+        <header id="header">
+          <nav class="top-menu">
+              <div class="container d-flex justify-content-between pb-2">
+                <div class="text-white col-7 pl-0">{% "Template-Header-Location" %}</div>
+                <div class="">{% "Login Button Form" %}</div>
+
+
+              </div>
+          </nav>
+          <nav class="navbar navbar-expand-lg header-block-top d-flex justify-content-between">
+                <button class="navbar-toggler navbar-dark order-1" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center order-lg-2" id="navbar">
+                  <ul class="navbar-nav p-1">{% "Template-Header-Navbar-UL" %}</ul>
+                </div>
+
+              <div class="logo order-lg-1 order-2">
+                  <div class="navbar-brand logo-header">{% "Template-Header-Brand-Img" %}</div>
+              </div>
+              <div class="order-3">{% "Cart Icon" %}</div>
+          </nav>
+
+        </header>
+      </div>
+      <!-- end header -->
+
+      <div class="my-5 container">{% "content box" %}</div>
+    </div>
+
+    <div id="footer" class="footer-main">
+      <div class="footer-box">
+        <div class="container">
+          <div class="footer-logo">
+            <div class="text-xs-center">{% "Template-Header-Brand-Img" %}</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 pb-4">
+              <div class="footer-box-a">{% "Template-Footer-About" %}</div>
+              <!-- end footer-box-a -->
+            </div>
+
+            <div class="col">
+              <div class="footer-box-c">{% "Template-Footer-Contact" %}</div>
+              <!-- end footer-box-c -->
+            </div>
+
+            <div class="col">
+              <div class="footer-box-d">{% "Template-Footer-Hours" %}</div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div id="copyright" class="copyright-main">
+          <div class="container">
+            <div class="row">
+              <div class="copy-title col-lg-12 col-md-12 col-sm-12 col-xs-12">{% "Template-Footer-Copyright" %}</div>
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- end container -->
+        </div>
+        <!-- end copyright-main -->
+      </div>
+      <!-- end footer-box -->
+    </div>
+  </div>
+  <!-- end footer-main -->
+  
+  
+  
+]]>
+			</field>
+			<field name="issecure">False</field>
+			<field name="includedaddons">
+				<selection>{57b167b2-b85e-4964-8fb8-4a5506209e19}</selection>
+				<selection>{EF1FD66C-D62F-4BD2-BF07-38F47996EBB3}</selection>
+				<selection>{9C882078-0DAC-48E3-AD4B-CF2AA230DF80}</selection>
+				<selection>{78AB19D3-A148-4189-BE0F-C0029A8A0042}</selection>
+			</field>
+			<field name="domains" />
+			<field name="collectionid">{870A9BFD-4CF8-4D2E-9E8A-BC730A37292D}</field>
+			<field name="source"/>
+			<field name="addonlist"/>
+			<field name="sharedstyles" />
+			<field name="bodytag"/>
+			<field name="link"/>
+			<field name="stylesfilename"/>
+			<field name="otherheadtags"/>
+			<field name="mobilebodyhtml"/>
+			<field name="jsonload"/>
+			<field name="jshead"/>
+			<field name="jsfilename"/>
+			<field name="jsendbody"/>
+			<field name="mobilestylesfilename"/>
+		</record>
+		<record content="Page Templates" guid="{c549d1c2-13df-4b58-850d-5819e24dcca9}" name="MenuCrm Full Width">
+			<field name="name">
+				<![CDATA[MenuCrm Full Width]]>
+			</field>
+			<field name="active">True</field>
+			<field name="sortorder"/>
+			<field name="dateadded">12/3/2020 10:14:57 PM</field>
+			<field name="createdby">{a5a1b345-69dc-4b55-a24b-c0adeeaf0382}</field>
+			<field name="modifieddate">2/22/2021 6:07:20 AM</field>
+			<field name="modifiedby">{a5a1b345-69dc-4b55-a24b-c0adeeaf0382}</field>
+			<field name="createkey">0</field>
+			<field name="ccguid">
+				<![CDATA[{c549d1c2-13df-4b58-850d-5819e24dcca9}]]>
+			</field>
+			<field name="bodyhtml">
+				<![CDATA[  <div id="page-container">
+    <div id="content-wrapper">
+      <div id="site-header">
+        <header id="header">
+          <nav class="top-menu">
+              <div class="container d-flex justify-content-between">
+                <div class="text-white col-7 pl-0">{% "Template-Header-Location" %}</div>
+                <div class="">{% "Login Button Form" %}</div>
+
+
+              </div>
+          </nav>
+          <nav class="navbar navbar-expand-lg header-block-top d-flex justify-content-between">
+                <button class="navbar-toggler navbar-dark order-1" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center order-lg-2" id="navbar">
+                  <ul class="navbar-nav p-1">{% "Template-Header-Navbar-UL" %}</ul>
+                </div>
+
+              <div class="logo order-lg-1 order-2">
+                  <div class="navbar-brand logo-header">{% "Template-Header-Brand-Img" %}</div>
+              </div>
+              <div class="order-3">{% "Cart Icon" %}</div>
+          </nav>
+
+        </header>
+      </div>
+      <!-- end header -->
+
+      <div class="my-5 container-fluid">{% "content box" %}</div>
+    </div>
+
+    <div id="footer" class="footer-main">
+      <div class="footer-box">
+        <div class="container">
+          <div class="footer-logo">
+            <div class="text-xs-center">{% "Template-Header-Brand-Img" %}</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 pb-4">
+              <div class="footer-box-a">{% "Template-Footer-About" %}</div>
+              <!-- end footer-box-a -->
+            </div>
+
+            <div class="col">
+              <div class="footer-box-c">{% "Template-Footer-Contact" %}</div>
+              <!-- end footer-box-c -->
+            </div>
+
+            <div class="col">
+              <div class="footer-box-d">{% "Template-Footer-Hours" %}</div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div id="copyright" class="copyright-main">
+          <div class="container">
+            <div class="row">
+              <div class="copy-title col-lg-12 col-md-12 col-sm-12 col-xs-12">{% "Template-Footer-Copyright" %}</div>
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- end container -->
+        </div>
+        <!-- end copyright-main -->
+      </div>
+      <!-- end footer-box -->
+    </div>
+  </div>
+  <!-- end footer-main -->
+  
+  
+  
+]]>
+			</field>
+			<field name="issecure">False</field>
+			<field name="includedaddons">
+				<selection>{9C882078-0DAC-48E3-AD4B-CF2AA230DF80}</selection>
+				<selection>{EF1FD66C-D62F-4BD2-BF07-38F47996EBB3}</selection>
+				<selection>{78AB19D3-A148-4189-BE0F-C0029A8A0042}</selection>
+				<selection>{57b167b2-b85e-4964-8fb8-4a5506209e19}</selection>
+			</field>
+			<field name="domains" />
+			<field name="collectionid">{870A9BFD-4CF8-4D2E-9E8A-BC730A37292D}</field>
+			<field name="source"/>
+			<field name="addonlist"/>
+			<field name="sharedstyles" />
+			<field name="bodytag">
+				<![CDATA[<Body class=ccBodyWeb>]]>
+			</field>
+			<field name="link"/>
+			<field name="stylesfilename"/>
+			<field name="otherheadtags"/>
+			<field name="mobilebodyhtml"/>
+			<field name="jsonload"/>
+			<field name="jshead"/>
+			<field name="jsfilename"/>
+			<field name="jsendbody"/>
+			<field name="mobilestylesfilename"/>
+		</record>
+	</data>
+	<Resource name="style.css" type="www" path="restaurant/css" />
+</Collection>
