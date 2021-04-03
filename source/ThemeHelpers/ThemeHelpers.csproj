@@ -41,17 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addons\Template-Header-Navbar-UL.cs" />
-    <Compile Include="Addons\Template-Header-Navbar-Li-List.cs" />
-    <Compile Include="Addons\Template-SocialMedia-Links.cs" />
-    <Compile Include="Addons\Template-Footer-Copyright.cs" />
-    <Compile Include="Addons\Template-Footer-Contact.cs" />
-    <Compile Include="Addons\Template-Footer-About.cs" />
-    <Compile Include="Addons\Template-Header-Location.cs" />
-    <Compile Include="Addons\Template-Header-Brand-Name.cs" />
-    <Compile Include="Addons\Template-Footer-Hours.cs" />
-    <Compile Include="Addons\Template-Header-Brand-Img.cs" />
-    <Compile Include="Addons\Template-Header-Navbar-Nav.cs" />
+    <Compile Include="Addons\ThemeHeaderNavbarULAddon.cs" />
+    <Compile Include="Addons\ThemeHeaderNavbarLiListAddon.cs" />
+    <Compile Include="Addons\ThemeContentSocialMediaLinksAddon.cs" />
+    <Compile Include="Addons\ThemeContentCopyrightAddon.cs" />
+    <Compile Include="Addons\ThemeContentContactAddon.cs" />
+    <Compile Include="Addons\ThemeContentAboutAddon.cs" />
+    <Compile Include="Addons\ThemeContentLocationAddon.cs" />
+    <Compile Include="Addons\ThemeBrandNameAddon.cs" />
+    <Compile Include="Addons\ThemeContentHoursAddon.cs" />
+    <Compile Include="Addons\ThemeBrandImageAddon.cs" />
+    <Compile Include="Addons\ThemeHeaderNavbarNavAddon.cs" />
     <Compile Include="Addons\OnInstallThemeHelpers.cs" />
     <Compile Include="constants.cs" />
     <Compile Include="Controllers\GenericController.cs" />

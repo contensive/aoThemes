@@ -3,9 +3,9 @@ using Contensive.Addons.ThemeHelpers.Controllers;
 
 namespace Contensive.Addons.ThemeHelpers.Addons {
     /// <summary>
-    /// Template Header Brand Name
+    /// Template Footer, Social Media Links
     /// </summary>
-    public class TemplateHeaderBrandNameClass : Contensive.BaseClasses.AddonBaseClass {
+    public class ThemeContentSocialMediaLinksAddon : BaseClasses.AddonBaseClass {
         // 
         // ====================================================================================================
         /// <summary>
@@ -14,7 +14,7 @@ namespace Contensive.Addons.ThemeHelpers.Addons {
         /// <param name="CP"></param>
         /// <returns></returns>
         public override object Execute(BaseClasses.CPBaseClass CP) {
-            return GenericController.getLayout(CP, "Template-Header-Brand-Name", "{D085B986-98CB-4915-933B-83170BDFF9D7}", "memberboss\\Template-Header-Brand-Name.html");
+            return GenericController.getLayout(CP, "Theme-Content-SocialMediaLinks", "{88045A70-3E59-478A-A694-1D4AC0240728}", "memberboss\\Theme-Content-SocialMediaLinks.html");
         }
     }
 }

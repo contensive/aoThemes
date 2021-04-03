@@ -1,19 +1,20 @@
 ﻿
+using Contensive.Addons.ThemeHelpers.Controllers;
+
 namespace Contensive.Addons.ThemeHelpers.Addons {
     /// <summary>
-    /// Template Header, Bootstrap menu, Navsection
+    /// Template Footer hours of operation
     /// </summary>
-    public class TemplateHeaderNavbarNavClass : Contensive.BaseClasses.AddonBaseClass {
+    public class ThemeContentHoursAddon : Contensive.BaseClasses.AddonBaseClass {
         // 
         // ====================================================================================================
         /// <summary>
-        /// Execute the menuing navbar-nav with the common memberboss instance id for the header menu
+        /// 
         /// </summary>
         /// <param name="CP"></param>
         /// <returns></returns>
         public override object Execute(BaseClasses.CPBaseClass CP) {
-            CP.Doc.SetProperty("instanceId", "Template-Header-Navbar-Nav");
-            return CP.Addon.Execute(constants.guidNavbarNavAddon);
+            return GenericController.getLayout(CP, "Theme-Content-Hours", "{51CC66CF-CD1C-42E7-93A6-7B66B6745068}", "memberboss\\Theme-Content-Hours.html");
         }
     }
 }

@@ -1,19 +1,20 @@
 ﻿
+using Contensive.Addons.ThemeHelpers.Controllers;
+
 namespace Contensive.Addons.ThemeHelpers.Addons {
     /// <summary>
-    /// Template Header, Bootstrap menu, li list
+    /// Contact content in template footer
     /// </summary>
-    public class TemplateHeaderNavbarLiListClass : Contensive.BaseClasses.AddonBaseClass {
+    public class ThemeContentContactAddon : Contensive.BaseClasses.AddonBaseClass {
         // 
         // ====================================================================================================
         /// <summary>
-        /// Execute the menuing navbar-nav with the common memberboss instance id for the header menu
+        /// 
         /// </summary>
         /// <param name="CP"></param>
         /// <returns></returns>
         public override object Execute(BaseClasses.CPBaseClass CP) {
-            CP.Doc.SetProperty("instanceId", "Template-Header-Navbar-Li-List");
-            return CP.Addon.Execute(constants.guidNavbarLiListAddon);
+            return GenericController.getLayout(CP, "Theme-Content-Contact", "{6053D0D5-B245-4EE1-8A6A-A92B485C6B1F}", "memberboss\\Theme-Content-Contact.html");
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Contensive.Addons.ThemeHelpers.Addons {
     /// <summary>
     /// Template Header Brand Image
     /// </summary>
-    public class TemplateHeaderBrandImgClass : BaseClasses.AddonBaseClass {
+    public class ThemeBrandImageAddon : BaseClasses.AddonBaseClass {
         // 
         // ====================================================================================================
         /// <summary>
@@ -20,7 +20,7 @@ namespace Contensive.Addons.ThemeHelpers.Addons {
             if (image == null) {
                 image = DbBaseModel.addDefault<LibraryFilesModel>(cp);
                 image.ccguid = constants.guidTemplateHeaderBrandLibraryFile;
-                image.name = "Template-Header-Brand-Img";
+                image.name = "Theme-Brand-Img";
                 image.filename = GenericController.populateFileField(cp, @"memberboss\memberboss.png", LibraryFilesModel.tableMetadata.tableNameLower, "filename", image.id);
                 image.save(cp);
             }

@@ -1,21 +1,19 @@
 ﻿
-using Contensive.Addons.ThemeHelpers.Controllers;
-using System;
-
 namespace Contensive.Addons.ThemeHelpers.Addons {
     /// <summary>
-    /// Template footer copyright
+    /// Template Header, Bootstrap menu, Navsection
     /// </summary>
-    public class TemplateFooterCopyrightClass : Contensive.BaseClasses.AddonBaseClass {
+    public class ThemeHeaderNavbarNavAddon : Contensive.BaseClasses.AddonBaseClass {
         // 
         // ====================================================================================================
         /// <summary>
-        /// 
+        /// Execute the menuing navbar-nav with the common memberboss instance id for the header menu
         /// </summary>
         /// <param name="CP"></param>
         /// <returns></returns>
         public override object Execute(BaseClasses.CPBaseClass CP) {
-            return GenericController.getLayout(CP, "Template-Footer-Copyright", "{97E9AB77-438A-47E8-B372-1A491B255748}", "memberboss\\Template-Footer-Copyright.html").Replace("{year}", DateTime.Now.Year.ToString());
+            CP.Doc.SetProperty("instanceId", "Theme-Header-Navbar-Nav");
+            return CP.Addon.Execute(constants.guidNavbarNavAddon);
         }
     }
 }

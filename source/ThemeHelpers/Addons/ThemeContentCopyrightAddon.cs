@@ -1,11 +1,12 @@
 ﻿
 using Contensive.Addons.ThemeHelpers.Controllers;
+using System;
 
 namespace Contensive.Addons.ThemeHelpers.Addons {
     /// <summary>
-    /// Template Header Location
+    /// Template footer copyright
     /// </summary>
-    public class TemplateHeaderLocationClass : Contensive.BaseClasses.AddonBaseClass {
+    public class ThemeContentCopyrightAddon : Contensive.BaseClasses.AddonBaseClass {
         // 
         // ====================================================================================================
         /// <summary>
@@ -14,7 +15,7 @@ namespace Contensive.Addons.ThemeHelpers.Addons {
         /// <param name="CP"></param>
         /// <returns></returns>
         public override object Execute(BaseClasses.CPBaseClass CP) {
-            return GenericController.getLayout(CP, "Template-Header-Location", "{407BBDE5-5542-4088-B904-8FE21F68B6D7}", "memberboss\\Template-Header-Location.html");
+            return GenericController.getLayout(CP, "Theme-Content-Copyright", "{97E9AB77-438A-47E8-B372-1A491B255748}", "memberboss\\Theme-Content-Copyright.html").Replace("{year}", DateTime.Now.Year.ToString());
         }
     }
 }

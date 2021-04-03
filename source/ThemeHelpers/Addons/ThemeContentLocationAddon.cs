@@ -3,9 +3,9 @@ using Contensive.Addons.ThemeHelpers.Controllers;
 
 namespace Contensive.Addons.ThemeHelpers.Addons {
     /// <summary>
-    /// about in Footer
+    /// Template Header Location
     /// </summary>
-    public class TemplateFooterAboutClass : BaseClasses.AddonBaseClass {
+    public class ThemeContentLocationAddon : Contensive.BaseClasses.AddonBaseClass {
         // 
         // ====================================================================================================
         /// <summary>
@@ -14,7 +14,7 @@ namespace Contensive.Addons.ThemeHelpers.Addons {
         /// <param name="CP"></param>
         /// <returns></returns>
         public override object Execute(BaseClasses.CPBaseClass CP) {
-            return GenericController.getLayout(CP, "Template-Footer-About", "{D3D3806E-E714-4283-BD33-0BCD0C14E80A}", "memberboss\\Template-Footer-About.html");
+            return GenericController.getLayout(CP, "Theme-Content-Location", "{407BBDE5-5542-4088-B904-8FE21F68B6D7}", "memberboss\\Theme-Content-Location.html");
         }
     }
 }

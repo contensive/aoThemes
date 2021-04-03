@@ -1,9 +1,9 @@
 ﻿
 namespace Contensive.Addons.ThemeHelpers.Addons {
     /// <summary>
-    /// Template Header, Bootstrap menu, UL section
+    /// Template Header, Bootstrap menu, li list
     /// </summary>
-    public class TemplateHeaderNavbarULClass : Contensive.BaseClasses.AddonBaseClass {
+    public class ThemeHeaderNavbarLiListAddon : Contensive.BaseClasses.AddonBaseClass {
         // 
         // ====================================================================================================
         /// <summary>
@@ -12,8 +12,8 @@ namespace Contensive.Addons.ThemeHelpers.Addons {
         /// <param name="CP"></param>
         /// <returns></returns>
         public override object Execute(BaseClasses.CPBaseClass CP) {
-            CP.Doc.SetProperty("instanceId", "Template-Header-Navbar-UL");
-            return CP.Addon.Execute(constants.guidNavbarULAddon);
+            CP.Doc.SetProperty("instanceId", "Theme-Header-Navbar-Li-List");
+            return CP.Addon.Execute(constants.guidNavbarLiListAddon);
         }
     }
 }
