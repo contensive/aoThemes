@@ -7,7 +7,7 @@ namespace Contensive.Addons.ThemeHelpers.Addons {
         // 
         // ====================================================================================================
         /// <summary>
-        /// Execute the menuing navbar-nav with the common memberboss instance id for the header menu
+        /// Execute the menuing navbar-nav with the common themehelpers instance id for the header menu
         /// </summary>
         /// <param name="CP"></param>
         /// <returns></returns>

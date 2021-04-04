@@ -14,7 +14,7 @@ namespace Contensive.Addons.ThemeHelpers.Addons {
         /// <param name="CP"></param>
         /// <returns></returns>
         public override object Execute(BaseClasses.CPBaseClass CP) {
-            return GenericController.getLayout(CP, "Theme-Content-Hours", "{51CC66CF-CD1C-42E7-93A6-7B66B6745068}", "memberboss\\Theme-Content-Hours.html");
+            return GenericController.getLayout(CP, "Theme-Content-Hours", "{51CC66CF-CD1C-42E7-93A6-7B66B6745068}", "themehelpers\\Theme-Content-Hours.html");
         }
     }
 }

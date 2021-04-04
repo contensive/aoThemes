@@ -72,10 +72,12 @@
 		<Template>Yes</Template>
 		<AliasList>Template-SocialMedia-Links</AliasList>
 	</Addon>
-	<Resource name="Theme-Content-About.html" type="file" path="memberboss" />
-	<Resource name="Theme-Content-Contact.html" type="file" path="memberboss" />
-	<Resource name="Theme-Content-Hours.html" type="file" path="memberboss" />
-	<Resource name="Theme-Content-Copyright.html" type="file" path="memberboss" />
-	<Resource name="Theme-Content-Location.html" type="file" path="memberboss" />
-	<Resource name="Theme-Content-SocialMediaLinks.html" type="file" path="memberboss" />
+	<Resource name="Theme-Content-About.html" type="file" path="themehelpers" />
+	<Resource name="Theme-Content-Contact.html" type="file" path="themehelpers" />
+	<Resource name="Theme-Content-Hours.html" type="file" path="themehelpers" />
+	<Resource name="Theme-Content-Copyright.html" type="file" path="themehelpers" />
+	<Resource name="Theme-Content-Location.html" type="file" path="themehelpers" />
+	<Resource name="Theme-Content-SocialMediaLinks.html" type="file" path="themehelpers" />
+	<Resource name="Brand-Default.png" type="file" path="themehelpers" />
+	
 </Collection>

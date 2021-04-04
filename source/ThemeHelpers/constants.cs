@@ -6,10 +6,6 @@ namespace Contensive.Addons.ThemeHelpers {
         /// </summary>
         public const string defaultDetailLayoutGuid = "{EA1E7975-B662-4657-80CF-DC9A9E0740FA}";
         /// <summary>
-        /// The name of the debug template, used to document all feature
-        /// </summary>
-        public const string defaultDetailLayoutName = "Memberboss Features Debug Template";
-        /// <summary>
         /// 
         /// </summary>
         public const string guidNavbarNavAddon = "{5DF19C31-F1C4-46B3-8FFC-78F5DE67105F}";

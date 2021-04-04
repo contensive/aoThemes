@@ -21,7 +21,7 @@ namespace Contensive.Addons.ThemeHelpers.Addons {
                 image = DbBaseModel.addDefault<LibraryFilesModel>(cp);
                 image.ccguid = constants.guidTemplateHeaderBrandLibraryFile;
                 image.name = "Theme-Brand-Img";
-                image.filename = GenericController.populateFileField(cp, @"memberboss\memberboss.png", LibraryFilesModel.tableMetadata.tableNameLower, "filename", image.id);
+                image.filename = GenericController.populateFileField(cp, @"themehelpers\Brand-Default.png", LibraryFilesModel.tableMetadata.tableNameLower, "filename", image.id);
                 image.save(cp);
             }
             StringBuilder result = new StringBuilder("<img");
