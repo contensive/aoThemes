@@ -36,6 +36,12 @@
 		<Template>Yes</Template>
 		<AliasList>Template-Header-Brand-Name</AliasList>
 	</Addon>
+	<Addon name="Theme-Content-Phone" guid="{8A790FFC-8855-44D7-9FC5-CBAC66420A62}" type="Add-on">
+		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.ThemeContentPhoneAddon</DotNetClass>
+		<Content>Yes</Content>
+		<Template>Yes</Template>
+		<AliasList>Template-Header-Brand-Img</AliasList>
+	</Addon>
 	<Addon name="Theme-Content-Location" guid="{5FBDA545-2F13-4AFC-879E-3A800A8EAF4E}" type="Add-on">
 		<DotNetClass>Contensive.Addons.ThemeHelpers.Addons.ThemeContentLocationAddon</DotNetClass>
 		<Content>Yes</Content>
@@ -78,6 +84,7 @@
 	<Resource name="Theme-Content-Copyright.html" type="file" path="themehelpers" />
 	<Resource name="Theme-Content-Location.html" type="file" path="themehelpers" />
 	<Resource name="Theme-Content-SocialMediaLinks.html" type="file" path="themehelpers" />
+	<Resource name="Theme-Content-Phone.html" type="file" path="themehelpers" />
 	<Resource name="Brand-Default.png" type="file" path="themehelpers" />
 	
 </Collection>
