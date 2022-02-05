@@ -42,8 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Addons\ThemeContentPhoneAddon.cs" />
-    <Compile Include="Addons\ThemeHeaderNavbarULAddon.cs" />
-    <Compile Include="Addons\ThemeHeaderNavbarLiListAddon.cs" />
+    <Compile Include="Addons\ThemeHeaderNavbarNavULAddon.cs" />
+    <Compile Include="Addons\ThemeHeaderLegacyNavbarULAddon.cs" />
+    <Compile Include="Addons\ThemeHeaderLegacyNavbarLiListAddon.cs" />
     <Compile Include="Addons\ThemeContentSocialMediaLinksAddon.cs" />
     <Compile Include="Addons\ThemeContentCopyrightAddon.cs" />
     <Compile Include="Addons\ThemeContentContactAddon.cs" />
@@ -52,7 +53,7 @@
     <Compile Include="Addons\ThemeBrandNameAddon.cs" />
     <Compile Include="Addons\ThemeContentHoursAddon.cs" />
     <Compile Include="Addons\ThemeBrandImageAddon.cs" />
-    <Compile Include="Addons\ThemeHeaderNavbarNavAddon.cs" />
+    <Compile Include="Addons\ThemeHeaderLegacyNavbarNavAddon.cs" />
     <Compile Include="Addons\OnInstallThemeHelpers.cs" />
     <Compile Include="constants.cs" />
     <Compile Include="Controllers\GenericController.cs" />

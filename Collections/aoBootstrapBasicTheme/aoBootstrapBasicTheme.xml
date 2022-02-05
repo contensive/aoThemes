@@ -181,6 +181,7 @@
 			<field name="templateid">{560C0081-065A-41B1-BE37-CC54739E67F2}</field>
 		</record>
 	</data>
+	<ImportCollection name="Theme Helpers">{371F8EFF-FF64-4F86-9FB8-FCAADD20E87B}</ImportCollection>
 	<ImportCollection name="Bootstrap">{2d3f9a21-9602-4549-b5df-5e09a9dae57e}</ImportCollection>
 	<ImportCollection name="Font Awesome">{3db6a433-59ca-43d1-9fb6-a539b6b947f2}</ImportCollection>
 	<ImportCollection name="JQuery">{A435BF70-041B-43D1-8A8D-5D9D59A7FCD0}</ImportCollection>
