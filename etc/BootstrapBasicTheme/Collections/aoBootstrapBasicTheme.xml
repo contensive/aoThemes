@@ -3,7 +3,6 @@
 	<Addon name="Bootstrap Basic Theme, Assets" guid="{c6c43884-22cb-413b-ae5e-a629fba7d173}" type="Add-on">
 		<Copy></Copy>
 		<CopyText></CopyText>
-		<ActiveXProgramID></ActiveXProgramID>
 		<DotNetClass></DotNetClass>
 		<ArgumentList></ArgumentList>
 		<AsAjax>No</AsAjax>

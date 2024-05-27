@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JzTnrwBxCXvNLC1L5+iH9dwRee5a5x7S+UzihBIRFIZKRiPAQVmOTm1y+wOO+zIjuCWWI0osTm3aauxHa9g+ng==",
+  "success": true,
+  "projectFilePath": "C:\\Git\\aoThemes\\source\\ThemeHelpers\\ThemeHelpers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jay\\.nuget\\packages\\contensive.cpbaseclass\\20.12.6.18\\contensive.cpbaseclass.20.12.6.18.nupkg.sha512",
+    "C:\\Users\\jay\\.nuget\\packages\\contensive.dbmodels\\20.12.6.18\\contensive.dbmodels.20.12.6.18.nupkg.sha512"
+  ],
+  "logs": []
+}

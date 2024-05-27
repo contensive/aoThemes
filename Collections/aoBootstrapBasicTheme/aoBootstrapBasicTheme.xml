@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<Collection name="Bootstrap Basic Theme" guid="{280F865E-7AB6-4955-99CF-8B930E4ABF53}" system="No" updatable="No" blockNavigatorNode="Yes">
+<Collection name="Bootstrap Basic Theme" guid="{280F865E-7AB6-4955-99CF-8B930E4ABF53}" system="No" updatable="no" blockNavigatorNode="Yes">
 	<Addon name="Bootstrap Basic Theme, Assets" guid="{c6c43884-22cb-413b-ae5e-a629fba7d173}" type="Add-on">
 		<Copy></Copy>
 		<CopyText></CopyText>
-		<ActiveXProgramID></ActiveXProgramID>
 		<DotNetClass></DotNetClass>
 		<ArgumentList></ArgumentList>
 		<AsAjax>No</AsAjax>
@@ -57,10 +56,10 @@
 			<field name="active">True</field>
 			<field name="bodyhtml"><![CDATA[
 				<main class="all-except-footer">
-					<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-						<div class="mr-auto"><a class="navbar-brand" href="/">{% "Bootstrap Nav Brand" %}</a></div>
+					<nav class="px-4 navbar navbar-expand-md navbar-dark bg-dark">
+						<div class="me-auto"><a class="navbar-brand" href="/">{% "Bootstrap Nav Brand" %}</a></div>
 						<div class="">{% {"Bootstrap Nav Menu":{"instanceId":"{1119a5f9-6a15-435a-95d5-fe0af3c89f9f}"}} %}</div>
-						<div class="ml-auto text-light">{% "login Button Form" %}</div>
+						<div class="ms-auto text-light">{% "login Button Form" %}</div>
 					</nav>
 					<section role="main">
 						<div class="container-fluid p-0">
@@ -75,13 +74,13 @@
 				<footer class="footer bg-dark">
 					<div class="container-fluid text-center copyrights py-3" id="main-bg">
 						<div class="container">
-							<span class="text-white">Copyright 2019 Contensive. All Rights Reserved. 
-							<a href="/Contact-Us" class="pl-2 text-white">Contact Us</a>
-							<a href="https://www.facebook.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-facebook-f text-white"></i></a> 
-							<a href="https://twitter.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-twitter text-white"></i></a> 
-							<a href="https://www.youtube.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-youtube text-white"></i></a> 
-							<!-- <a href="http://www.pinterest.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-pinterest-p text-white"></i></a> -->
-							<a href="/rss/Latest-News.xml" class="rounded-circle pl-2"><i class="fas fa-rss text-white"></i></a>
+							<span class="text-white">Copyright Contensive. All Rights Reserved. 
+							<a href="/Contact-Us" class="pl-2 ps-2 text-white">Contact Us</a>
+							<a href="https://www.facebook.com/Contensive" class="rounded-circle pl-2 ps-2"><i class="fab fa-facebook-f text-white"></i></a> 
+							<a href="https://twitter.com/Contensive" class="rounded-circle pl-2 ps-2"><i class="fab fa-twitter text-white"></i></a> 
+							<a href="https://www.youtube.com/Contensive" class="rounded-circle pl-2 ps-2"><i class="fab fa-youtube text-white"></i></a> 
+							<!-- <a href="http://www.pinterest.com/Contensive" class="rounded-circle pl-2 ps-2"><i class="fab fa-pinterest-p text-white"></i></a> -->
+							<a href="/rss/Latest-News.xml" class="rounded-circle pl-2 ps-2"><i class="fas fa-rss text-white"></i></a>
 							</span>
 						</div>
 					</div>
@@ -106,10 +105,10 @@
 			<field name="active">True</field>
 			<field name="bodyhtml"><![CDATA[
 				<main class="all-except-footer">
-					<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-						<div class="mr-auto"><a class="navbar-brand" href="/">{% "Bootstrap Nav Brand" %}</a></div>
+					<nav class="px-4 navbar navbar-expand-md navbar-dark bg-dark">
+						<div class="me-auto"><a class="navbar-brand" href="/">{% "Bootstrap Nav Brand" %}</a></div>
 						<div class="">{% {"Bootstrap Nav Menu":{"instanceId":"{1119a5f9-6a15-435a-95d5-fe0af3c89f9f}"}} %}</div>
-						<div class="ml-auto text-light">{% "login Button Form" %}</div>
+						<div class="ms-auto text-light">{% "login Button Form" %}</div>
 					</nav>
 					<section role="main">
 						<div class="container starter-template pt-5">
@@ -120,13 +119,13 @@
 				<footer class="footer bg-dark">
 					<div class="container-fluid text-center copyrights py-3" id="main-bg">
 						<div class="container">
-							<span class="text-white">Copyright 2019 Contensive. All Rights Reserved. 
-							<a href="/Contact-Us" class="pl-2 text-white">Contact Us</a>
-							<a href="https://www.facebook.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-facebook-f text-white"></i></a> 
-							<a href="https://twitter.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-twitter text-white"></i></a> 
-							<a href="https://www.youtube.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-youtube text-white"></i></a> 
-							<!-- <a href="http://www.pinterest.com/Contensive" class="rounded-circle pl-2"><i class="fab fa-pinterest-p text-white"></i></a> -->
-							<a href="/rss/Latest-News.xml" class="rounded-circle pl-2"><i class="fas fa-rss text-white"></i></a>
+							<span class="text-white">Copyright Contensive. All Rights Reserved. 
+							<a href="/Contact-Us" class="pl-2 ps-2 text-white">Contact Us</a>
+							<a href="https://www.facebook.com/Contensive" class="rounded-circle pl-2 ps-2"><i class="fab fa-facebook-f text-white"></i></a> 
+							<a href="https://twitter.com/Contensive" class="rounded-circle pl-2 ps-2"><i class="fab fa-twitter text-white"></i></a> 
+							<a href="https://www.youtube.com/Contensive" class="rounded-circle pl-2 ps-2"><i class="fab fa-youtube text-white"></i></a> 
+							<!-- <a href="http://www.pinterest.com/Contensive" class="rounded-circle pl-2 ps-2"><i class="fab fa-pinterest-p text-white"></i></a> -->
+							<a href="/rss/Latest-News.xml" class="rounded-circle pl-2 ps-2"><i class="fas fa-rss text-white"></i></a>
 							</span>
 						</div>
 					</div>
@@ -160,7 +159,7 @@
 			<field name="classtierlist"><![CDATA[dropdown-menu]]></field>
 			<field name="classtopanchor"><![CDATA[nav-link]]></field>
 			<field name="classtopitem"><![CDATA[nav-item]]></field>
-			<field name="classtoplist"><![CDATA[navbar-nav mr-auto]]></field>
+			<field name="classtoplist"><![CDATA[navbar-nav me-auto]]></field>
 			<field name="classtopparentanchor"><![CDATA[dropdown-toggle]]></field>
 			<field name="classtopparentitem"><![CDATA[dropdown]]></field>
 			<field name="classtopwrapper"></field>
