@@ -5,10 +5,14 @@
       "Contensive.CPBaseClass/20.12.6.18": {
         "type": "package",
         "compile": {
-          "lib/net45/CPBase.dll": {}
+          "lib/net45/CPBase.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/CPBase.dll": {}
+          "lib/net45/CPBase.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Contensive.DbModels/20.12.6.18": {
@@ -17,79 +21,14 @@
           "Contensive.CPBaseClass": "20.12.6.18"
         },
         "compile": {
-          "lib/net45/ContensiveDbModels.dll": {}
+          "lib/net45/ContensiveDbModels.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/ContensiveDbModels.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win": {
-      "Contensive.CPBaseClass/20.12.6.18": {
-        "type": "package",
-        "compile": {
-          "lib/net45/CPBase.dll": {}
-        },
-        "runtime": {
-          "lib/net45/CPBase.dll": {}
-        }
-      },
-      "Contensive.DbModels/20.12.6.18": {
-        "type": "package",
-        "dependencies": {
-          "Contensive.CPBaseClass": "20.12.6.18"
-        },
-        "compile": {
-          "lib/net45/ContensiveDbModels.dll": {}
-        },
-        "runtime": {
-          "lib/net45/ContensiveDbModels.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win-x64": {
-      "Contensive.CPBaseClass/20.12.6.18": {
-        "type": "package",
-        "compile": {
-          "lib/net45/CPBase.dll": {}
-        },
-        "runtime": {
-          "lib/net45/CPBase.dll": {}
-        }
-      },
-      "Contensive.DbModels/20.12.6.18": {
-        "type": "package",
-        "dependencies": {
-          "Contensive.CPBaseClass": "20.12.6.18"
-        },
-        "compile": {
-          "lib/net45/ContensiveDbModels.dll": {}
-        },
-        "runtime": {
-          "lib/net45/ContensiveDbModels.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win-x86": {
-      "Contensive.CPBaseClass/20.12.6.18": {
-        "type": "package",
-        "compile": {
-          "lib/net45/CPBase.dll": {}
-        },
-        "runtime": {
-          "lib/net45/CPBase.dll": {}
-        }
-      },
-      "Contensive.DbModels/20.12.6.18": {
-        "type": "package",
-        "dependencies": {
-          "Contensive.CPBaseClass": "20.12.6.18"
-        },
-        "compile": {
-          "lib/net45/ContensiveDbModels.dll": {}
-        },
-        "runtime": {
-          "lib/net45/ContensiveDbModels.dll": {}
+          "lib/net45/ContensiveDbModels.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -136,7 +75,6 @@
   },
   "packageFolders": {
     "C:\\Users\\jay\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
@@ -149,8 +87,8 @@
       "outputPath": "C:\\Git\\aoThemes\\source\\ThemeHelpers\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
@@ -170,6 +108,11 @@
         "net472": {
           "projectReferences": {}
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
       }
     },
     "frameworks": {
@@ -184,17 +127,6 @@
             "version": "[20.12.6.18, )"
           }
         }
-      }
-    },
-    "runtimes": {
-      "win": {
-        "#import": []
-      },
-      "win-x64": {
-        "#import": []
-      },
-      "win-x86": {
-        "#import": []
       }
     }
   }
