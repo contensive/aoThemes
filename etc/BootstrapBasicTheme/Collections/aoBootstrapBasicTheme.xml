@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<Collection name="Bootstrap Basic Theme" guid="{280F865E-7AB6-4955-99CF-8B930E4ABF53}" system="No" updatable="No" blockNavigatorNode="Yes">
+<Collection name="Bootstrap Basic Theme" guid="{280F865E-7AB6-4955-99CF-8B930E4ABF53}" system="No" updatable="No" blockNavigatorNode="Yes"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://contensive.s3.amazonaws.com/xsd/Collection.xsd"
+>
 	<Addon name="Bootstrap Basic Theme, Assets" guid="{c6c43884-22cb-413b-ae5e-a629fba7d173}" type="Add-on">
 		<Copy></Copy>
 		<CopyText></CopyText>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<Collection name="Flush Theme" guid="{3f27d0bb-430a-4c4e-8edb-7c3a86b27418}" system="No" updatable="Yes" blockNavigatorNode="No">
+<Collection name="Flush Theme" guid="{3f27d0bb-430a-4c4e-8edb-7c3a86b27418}" system="No" updatable="Yes" blockNavigatorNode="No"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://contensive.s3.amazonaws.com/xsd/Collection.xsd"
+>
 	<HelpLink></HelpLink>
 	<Help></Help>
 	<Addon name="assets/js/jquery-migrate-1.2.1.min.js" guid="{ecfcf6bf-7eed-486d-b877-a22ca6dacf54}" type="Add-on">
