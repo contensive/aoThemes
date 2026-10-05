@@ -1,0 +1,14 @@
+C:\Git\aoThemes\source\ThemeHelpers\bin\Debug\netstandard2.0\ThemeHelpers.deps.json
+C:\Git\aoThemes\source\ThemeHelpers\bin\Debug\netstandard2.0\ThemeHelpers.dll
+C:\Git\aoThemes\source\ThemeHelpers\bin\Debug\netstandard2.0\ThemeHelpers.pdb
+C:\Git\aoThemes\source\ThemeHelpers\bin\Debug\netstandard2.0\CPBase.dll
+C:\Git\aoThemes\source\ThemeHelpers\bin\Debug\netstandard2.0\ContensiveDbModels.dll
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\netstandard2.0\ThemeHelpers.csproj.AssemblyReference.cache
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\netstandard2.0\ThemeHelpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\netstandard2.0\ThemeHelpers.AssemblyInfoInputs.cache
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\netstandard2.0\ThemeHelpers.AssemblyInfo.cs
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\netstandard2.0\ThemeHelpers.csproj.CoreCompileInputs.cache
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\netstandard2.0\ThemeHelpers.sourcelink.json
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\netstandard2.0\ThemeHel.5718B3B1.Up2Date
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\netstandard2.0\ThemeHelpers.dll
+C:\Git\aoThemes\source\ThemeHelpers\obj\Debug\netstandard2.0\ThemeHelpers.pdb

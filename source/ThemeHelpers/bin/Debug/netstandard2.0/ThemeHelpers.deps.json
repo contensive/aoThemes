@@ -1,0 +1,82 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "ThemeHelpers/1.0.0": {
+        "dependencies": {
+          "Contensive.CPBaseClass": "26.9.25.22751",
+          "Contensive.DbModels": "26.9.25.22751",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "ThemeHelpers.dll": {}
+        }
+      },
+      "Contensive.CPBaseClass/26.9.25.22751": {
+        "runtime": {
+          "lib/netstandard2.0/CPBase.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "26.9.25.22751"
+          }
+        }
+      },
+      "Contensive.DbModels/26.9.25.22751": {
+        "dependencies": {
+          "Contensive.CPBaseClass": "26.9.25.22751"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ContensiveDbModels.dll": {
+            "assemblyVersion": "20.0.0.0",
+            "fileVersion": "26.9.25.22751"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThemeHelpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contensive.CPBaseClass/26.9.25.22751": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vnr/nAIYbjSPU9xu0G7Wighs5rwIaEfuT8wSGhYX44xDrbv28CaJd08mtdwF5xRTfuWAqxvVAqlcv6KwSpFT6g==",
+      "path": "contensive.cpbaseclass/26.9.25.22751",
+      "hashPath": "contensive.cpbaseclass.26.9.25.22751.nupkg.sha512"
+    },
+    "Contensive.DbModels/26.9.25.22751": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XUDaFCSx9Z4uu7bLBEg3JGXwRbgXmcoW5ikvydggiVg1CBrBjAjC5AvRNAcdc7JWyEHz6kLH68h7w+GI4vky4A==",
+      "path": "contensive.dbmodels/26.9.25.22751",
+      "hashPath": "contensive.dbmodels.26.9.25.22751.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    }
+  }
+}

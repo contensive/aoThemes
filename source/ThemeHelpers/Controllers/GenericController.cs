@@ -35,7 +35,7 @@ namespace Contensive.Addons.ThemeHelpers.Controllers {
                 }
                 //
                 // --  exit if not editing
-                if (!CP.User.IsEditingAnything) { return layout.layout.content; }
+                if (!CP.User.IsEditing()) { return layout.layout.content; }
                 //
                 // -- wrap with edit
                 return CP.Content.GetEditWrapper(layout.layout.content, layout.contentControlId, layout.id);

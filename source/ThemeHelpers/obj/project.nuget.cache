@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jDGqlJxlrco=",
+  "dgSpecHash": "saY6RSPqbHw=",
   "success": true,
   "projectFilePath": "C:\\Git\\aoThemes\\source\\ThemeHelpers\\ThemeHelpers.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jay\\.nuget\\packages\\contensive.cpbaseclass\\20.12.6.18\\contensive.cpbaseclass.20.12.6.18.nupkg.sha512",
-    "C:\\Users\\jay\\.nuget\\packages\\contensive.dbmodels\\20.12.6.18\\contensive.dbmodels.20.12.6.18.nupkg.sha512"
+    "C:\\Users\\jay\\.nuget\\packages\\contensive.cpbaseclass\\26.9.25.22751\\contensive.cpbaseclass.26.9.25.22751.nupkg.sha512",
+    "C:\\Users\\jay\\.nuget\\packages\\contensive.dbmodels\\26.9.25.22751\\contensive.dbmodels.26.9.25.22751.nupkg.sha512",
+    "C:\\Users\\jay\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jay\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
